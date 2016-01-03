@@ -1,0 +1,49 @@
+// Import Bootstrap Compass integration
+@import "bootstrap-compass";
+
+// Import custom Bootstrap variables
+@import "bootstrap-variables";
+
+// Import Bootstrap for Sass
+@import "bootstrap";
+
+//@import "compass/reset";
+@import "Compass";
+
+$my_color: #BADA55;
+$bwm_blue: #0097ff;
+$bwm_gray: #4a4849;
+
+.jumbotron {
+	margin: 0;
+}
+
+.header .jumbotron{
+	background-color: $bwm_blue;
+}
+
+.header h1 {
+	color: #fff;
+	text-align: center;
+}
+
+nav {
+  	a {
+    	color: $my_color;             
+    	/* Cross-browser inline-block helper */
+    	@include inline-block;      
+    	/* Text-shadow helper + rgba() is a built-in Sass mixin */        
+    	@include text-shadow(0 1px 1px rgba(#000,0.3));
+    	/* Cross-browser CSS3 transition */
+    	@include single-transition(color, 0.5s, ease-in);
+    		&:hover {
+    				text-decoration: none;
+    	}
+  	}
+}
+
+.border-btm {
+	height: 10px;
+	background-color: $bwm_gray;
+	margin: 0;
+}
