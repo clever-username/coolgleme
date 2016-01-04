@@ -5795,35 +5795,125 @@ button.close {
 @media print {
   .hidden-print {
     display: none !important; } }
-.jumbotron {
+body {
+  background: #fff;
+  margin: 0;
+  padding: 0; }
+
+header {
+  margin: 0;
+  padding: 0; }
+
+.coogle p {
+  margin: 0;
+  font-family: 'EB Garamond', sans-serif;
+  font-size: 3rem;
+  padding-top: 0.7rem; }
+
+.gbar {
+  height: 59px;
+  width: 100%;
+  background: #F1F1F1;
+  margin: 0;
+  color: #5A7D7C;
+  font-size: 1rem;
+  border: 1px solid #dddbdb; }
+
+.coogle {
+  margin-left: 1.1rem;
+  margin-right: 1.6rem;
+  display: inline-block; }
+
+.blue {
+  color: #3369e8; }
+
+.red {
+  color: #d50f25; }
+
+.yellow {
+  color: #eeb211; }
+
+.green {
+  color: #009925; }
+
+.gbar .input-group {
+  margin-top: -16px;
+  width: 640px; }
+
+.gbar .input-group .input-group-addon {
+  width: 21px;
+  background: #4285f4;
+  border-color: #4285f4;
+  border-radius: 2.5px; }
+
+.gbar .input-group-addon:hover {
+  background: #3A76E2;
+  border-color: #3A76E2; }
+
+.gbar .glyphicon-search {
+  color: #fff;
+  font-size: 17px; }
+
+.gbar .form-group {
+  display: inline-block;
   margin: 0; }
 
-.header .jumbotron {
-  background-color: #0097ff; }
+.gbar .form-control {
+  border-radius: 2.5px;
+  border-color: #dddbdb;
+  height: 39px; }
 
-.header h1 {
+.gbar .form-control:hover {
+  border-color: #B8B8B8; }
+
+.gbar .form-inline {
+  display: inline-block; }
+
+.header .account-icons {
+  display: inline-block;
+  float: right;
+  padding-right: 25px; }
+
+.account-icons ul {
+  list-style: none; }
+
+.account-icons ul li {
+  display: inline-block; }
+
+.account-icons p {
+  display: inline-block;
+  font-size: 13px;
+  color: #6D6D6D;
+  margin-right: 19px; }
+
+.bell-circle {
+  height: 20px;
+  width: 20px;
+  border-radius: 100%;
+  background: #6D6D6D;
+  display: inline-block;
+  padding-top: 4px;
+  margin-right: 19px;
+  margin-top: 20px; }
+
+.bell-circle:hover {
+  background: #242424; }
+
+.glyphicon-th {
+  display: inline-block;
+  font-size: 18px;
+  color: #6D6D6D;
+  margin-right: 19px;
+  top: 4px; }
+
+.glyphicon-th:hover {
+  color: #242424; }
+
+.glyphicon-bell {
   color: #fff;
+  font-size: 10px;
   text-align: center; }
 
-nav a {
-  color: #BADA55;
-  /* Cross-browser inline-block helper */
+.account-icons img {
   display: inline-block;
-  vertical-align: middle;
-  *vertical-align: auto;
-  *zoom: 1;
-  *display: inline;
-  /* Text-shadow helper + rgba() is a built-in Sass mixin */
-  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
-  /* Cross-browser CSS3 transition */
-  -moz-transition: color 0.5s ease-in;
-  -o-transition: color 0.5s ease-in;
-  -webkit-transition: color 0.5s ease-in;
-  transition: color 0.5s ease-in; }
-  nav a:hover {
-    text-decoration: none; }
-
-.border-btm {
-  height: 10px;
-  background-color: #4a4849;
-  margin: 0; }
+  margin-bottom: 5px; }
