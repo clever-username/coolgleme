@@ -5819,7 +5819,8 @@ small {
 body {
   background: #fff;
   margin: 0;
-  padding: 0; }
+  padding: 0;
+  font: "Open-Sans", sans-serif; }
 
 header {
   margin: 0;
@@ -5845,6 +5846,9 @@ header {
   margin-right: 1.6em;
   display: inline-block; }
 
+.coogle:hover {
+  cursor: pointer; }
+
 .blue {
   color: #3369e8; }
 
@@ -5858,8 +5862,16 @@ header {
   color: #009925; }
 
 .gbar .input-group {
-  margin-top: -12px;
+  margin-top: -11px;
   width: 640px; }
+
+textarea:focus,
+input[type="text"]:focus,
+.uneditable-input:focus {
+  -webkit-box-shadow: none !important;
+  -moz-box-shadow: none !important;
+  box-shadow: none !important;
+  border: 1px solid #4285f4; }
 
 input[readonly].form-control {
   background: #fff; }
@@ -5880,6 +5892,9 @@ input[readonly].form-control {
   width: 21px;
   background: #4285f4;
   border-color: #4285f4;
+  -webkit-border-radius: 2.5px;
+  -moz-border-radius: 2.5px;
+  -ms-border-radius: 2.5px;
   border-radius: 2.5px; }
 
 .gbar .input-group-addon:hover {
@@ -5895,6 +5910,9 @@ input[readonly].form-control {
   margin: 0; }
 
 .gbar .form-control {
+  -webkit-border-radius: 2.5px;
+  -moz-border-radius: 2.5px;
+  -ms-border-radius: 2.5px;
   border-radius: 2.5px;
   border-color: #dddbdb;
   height: 39px; }
@@ -5912,19 +5930,23 @@ input[readonly].form-control {
 
 .account-icons ul {
   list-style: none; }
-
-.account-icons ul li {
+.account-icons li {
   display: inline-block; }
-
 .account-icons p {
   display: inline-block;
   font-size: 13px;
   color: #6D6D6D;
   margin-right: 19px; }
+.account-icons img {
+  display: inline-block;
+  margin-bottom: 5px; }
 
 .bell-circle {
   height: 20px;
   width: 20px;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  -ms-border-radius: 100%;
   border-radius: 100%;
   background: #6D6D6D;
   display: inline-block;
@@ -5943,16 +5965,12 @@ input[readonly].form-control {
   top: 4px; }
 
 .glyphicon-th:hover {
-  color: #B8B8B8; }
+  color: #242424; }
 
 .glyphicon-bell {
   color: #fff;
   font-size: 10px;
   text-align: center; }
-
-.account-icons img {
-  display: inline-block;
-  margin-bottom: 5px; }
 
 .nav-area {
   height: 59px;
@@ -5964,8 +5982,7 @@ input[readonly].form-control {
   margin-bottom: 0;
   margin-left: 8em;
   display: inline-block; }
-
-.nav-area ul li {
+.nav-area li {
   display: inline-block;
   margin-right: 0.7em;
   padding-top: 1.4em;
@@ -5974,6 +5991,9 @@ input[readonly].form-control {
   font-size: 0.95em;
   color: #6D6D6D;
   height: 58px; }
+.nav-area li:hover {
+  color: #242424;
+  cursor: pointer; }
 
 .nav-active {
   color: #4285f4 !important;
@@ -5987,14 +6007,12 @@ input[readonly].form-control {
   background-color: none;
   margin-top: -0.18em;
   color: #6D6D6D; }
-
+.nav-area .dropdown button:hover {
+  background: none;
+  color: #242424; }
 .nav-area .dropdown .caret {
   color: #6D6D6D; }
-
-.dropdown .open {
-  background: none; }
-
-.nav-area .dropdown button:hover {
+.nav-area .dropdown .open {
   background: none; }
 
 .nav-area ul .dd {
@@ -6004,6 +6022,9 @@ input[readonly].form-control {
 .nav-area .dropdown .dropdown-menu {
   margin-left: -0.9em;
   margin-top: 0.7em;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
   border-radius: 2px;
   min-width: 6em;
   max-width: 9em;
@@ -6012,8 +6033,7 @@ input[readonly].form-control {
 .nav-area .dropdown .dropdown-menu li {
   height: 0.95em;
   padding-top: 0.5em; }
-
-.nav-area .dropdown .dropdown-menu li a {
+.nav-area .dropdown .dropdown-menu a {
   padding-left: 0.4em;
   width: 100%; }
 
@@ -6027,6 +6047,9 @@ input[readonly].form-control {
   padding-left: 1.3em;
   margin-right: -11em;
   border: 1px solid #dddbdb;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
   border-radius: 2px;
   float: right;
   color: #6D6D6D;
@@ -6036,3 +6059,22 @@ input[readonly].form-control {
 .settings-btn:hover {
   color: #242424;
   border-color: #B8B8B8; }
+
+.result-stats {
+  margin-left: 8.2em;
+  padding-top: 1em; }
+
+.result-stats p {
+  font-size: 0.95em;
+  color: #6D6D6D; }
+.result-stats h4 {
+  color: #1A0DAB;
+  margin-top: 1.5em; }
+.result-stats .blue-text {
+  text-decoration: underline; }
+.result-stats .dymt {
+  color: #C7161C; }
+.result-stats .travis {
+  color: #0028D5;
+  font-style: italic;
+  font-weight: 700; }
