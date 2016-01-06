@@ -18,7 +18,7 @@
     <![endif]-->
 
     <!-- Google fonts -->
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans|EB+Garamond' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600|EB+Garamond' rel='stylesheet' type='text/css'>
 
   </head>
   <body>
@@ -28,14 +28,16 @@
             <div class="coogle">
               <p><span class="blue">C</span><span class="red">o</span><span class="yellow">o</span><span class="green">l</span><span class="blue">g</span><span class="green">l</span><span class="red ee">e</span></p>
             </div>
+            <!-- Search bar -->
             <form class="form-inline">
               <div class="form-group">
                 <div class="input-group">
-                  <input type="text" class="form-control" id="exampleInputAmount" placeholder="Travis Thielen">
+                  <input type="text" class="form-control" id="TravisThielen" placeholder="Travis Thielen" readonly>
                   <div class="input-group-addon"><span class="glyphicon glyphicon-search"></span></div>
                 </div>
               </div>
             </form>
+            <!-- profile and alert icons -->
             <div class="account-icons">
               <ul>
                 <li><p>Travis</p></li>
@@ -44,8 +46,40 @@
                 <li><img src="media/Travis-Thielen-hiking-great-wall-of-china.JPG" alt="Travis Thielen hiking the great wall of china" class="img-circle" width="32px" height="32px"></li>
               </ul>
             </div>
-        </div>
       </div>
+    </div>
+    <!-- nav bar area -->
+    <div class="nav-area">
+      <div class="container-fluid">
+        <ul>
+          <li class="nav-active">All</li>
+          <li>Images</li>
+          <li>Videos</li>
+          <li>Maps</li>
+          <li>News</li>
+          <li class="dd">
+            <div class="dropdown">
+              <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                More
+                <span class="caret"></span>
+              </button>
+              <!-- hidden dropdown menu- MUST DELETE HIDDEN CLASS BEFORE GOING LIVE -->
+              <ul class="dropdown-menu hidden" aria-labelledby="dropdownMenu1">
+                <li><a href="#">Shopping</a></li>
+                <li><a href="#">Books</a></li>
+                <li><a href="#">Flights</a></li>
+                <li><a href="#">Apps</a></li>
+              </ul>
+            </div>
+          </li>
+          <li>Search Tools</li>
+        </ul>
+        <!-- settings cog button -->
+        
+          <span class="glyphicon glyphicon-cog settings-btn"></span>
+        
+      </div>
+    </div>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
