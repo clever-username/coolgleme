@@ -10,40 +10,552 @@
 //@import "compass/reset";
 @import "Compass";
 
-$my_color: #BADA55;
-$bwm_blue: #0097ff;
-$bwm_gray: #4a4849;
-
-.jumbotron {
-	margin: 0;
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+     -moz-border-radius: $radius;
+      -ms-border-radius: $radius;
+          border-radius: $radius;
 }
 
-.header .jumbotron{
-	background-color: $bwm_blue;
+$font-stack: 'Open-Sans', sans-serif;
+
+$gb: #3369e8;
+$gr: #d50f25;
+$gy: #eeb211;
+$gg: #009925;
+$grey: #dddbdb;
+$dgrey: #B8B8B8;
+$hover-grey: #242424;
+$light-text: #8E8E8E;
+$active-blue: #4285f4;
+$hover-blue: #3A76E2;
+$bg-grey: #F1F1F1;
+$dym-red: #C7161C;
+$reblue: #1A0DAB;
+$regreen: #0D6D2C;
+$dblue: #0028D5;
+$ads: #EFC439;
+$stars: #E7711B;
+
+html { 
+  font-size: 1em; 
 }
 
-.header h1 {
-	color: #fff;
-	text-align: center;
+h1 { 
+  font-size: 2.074em; 
 }
 
-nav {
-  	a {
-    	color: $my_color;             
-    	/* Cross-browser inline-block helper */
-    	@include inline-block;      
-    	/* Text-shadow helper + rgba() is a built-in Sass mixin */        
-    	@include text-shadow(0 1px 1px rgba(#000,0.3));
-    	/* Cross-browser CSS3 transition */
-    	@include single-transition(color, 0.5s, ease-in);
-    		&:hover {
-    				text-decoration: none;
-    	}
-  	}
+h2 { 
+  font-size: 1.728em; 
 }
 
-.border-btm {
-	height: 10px;
-	background-color: $bwm_gray;
-	margin: 0;
+h3 { 
+  font-size: 1.44em; 
 }
+
+h4 { 
+  font-size: 1.2em; 
+}
+
+small { 
+  font-size: 0.833em; 
+}
+
+.box { 
+  padding: 1.25em; 
+}
+
+body {
+  background: #fff;
+  margin: 0;
+  padding: 0;
+  font: $font-stack;
+}
+
+header {
+  margin: 0;
+  padding: 0;
+}
+
+.coogle p {
+  margin: 0;
+  font-family: 'EB Garamond', sans-serif;
+  font-size: 2em;
+  padding-top: 0.5rem;
+}
+
+.gbar {
+  height: 59px;
+  width: 100%;
+  background: $bg-grey;
+  margin: 0;
+  color: #5A7D7C;
+  font-size: 1em;
+  border: 1px solid $grey;
+}
+
+.coogle {
+  margin-left: 1.1em; 
+  margin-right: 1.6em;
+  display: inline-block;
+}
+
+.coogle:hover {
+  cursor: pointer;
+}
+
+.blue {
+  color: $gb;
+}
+
+.red {
+  color: $gr;
+}
+
+.yellow {
+  color: $gy;
+}
+
+.green {
+  color: $gg;
+}
+
+.gbar .input-group {
+  margin-top: -11px;
+  width: 640px;
+}
+
+textarea:focus,
+input[type="text"]:focus,
+.uneditable-input:focus {
+  -webkit-box-shadow: none !important;
+  -moz-box-shadow: none !important;
+  box-shadow: none !important;
+  border: 1px solid $active-blue;
+}
+
+input[readonly].form-control {
+  background: #fff;
+}
+
+.form-control::-webkit-input-placeholder { 
+  color: #000; 
+  font-size: 15px;
+}
+
+.form-control:-moz-placeholder { 
+  color: #000; 
+  font-size: 15px;
+}
+
+.form-control::-moz-placeholder { 
+  color: #000; 
+  font-size: 15px;
+}
+
+.form-control:-ms-input-placeholder { 
+  color: #000; 
+  font-size: 15px;
+}
+
+.gbar .input-group .input-group-addon {
+  width: 21px;
+  background: $active-blue;
+  border-color: $active-blue;
+  @include border-radius(2.5px);
+}
+
+.gbar .input-group-addon:hover {
+  background: $hover-blue;
+  border-color: $hover-blue;
+}
+
+.gbar .glyphicon-search {
+  color: #fff;
+  font-size: 17px;
+}
+
+.gbar .form-group {
+  display: inline-block;
+  margin: 0;
+}
+
+.gbar .form-control {
+  @include border-radius(2.5px);
+  border-color: $grey;
+  height: 39px;
+}
+
+.gbar .form-control:hover {
+  border-color: $dgrey;
+}
+
+.gbar .form-inline {
+  display: inline-block;
+}
+
+.header .account-icons {
+  display: inline-block;
+  float: right;
+  padding-right: 25px;
+}
+
+.account-icons {
+    
+    ul {
+  list-style: none;
+  }
+    
+    li {
+  display: inline-block;
+  }
+    
+    p {
+  display: inline-block;
+  font-size: 13px;
+  color: $light-text;
+  margin-right: 19px;
+  }
+
+    img {
+  display: inline-block;
+  margin-bottom: 5px;
+  }
+
+}
+
+.bell-circle {
+  height: 20px;
+  width: 20px;
+  @include border-radius(100%);
+  background: $light-text;
+  display: inline-block;
+  padding-top: 4px;
+  margin-right: 19px;
+  margin-top: 20px;
+}
+
+.bell-circle:hover {
+  background: $hover-grey;
+}
+
+.glyphicon-th {
+  display: inline-block;
+  font-size: 18px;
+  color:$light-text;
+  margin-right: 19px;
+  top: 4px;
+}
+
+.glyphicon-th:hover {
+  color: $hover-grey;
+}
+
+.glyphicon-bell {
+  color: #fff;
+  font-size: 10px;
+  text-align: center;
+}
+
+.nav-area {
+  height: 59px;
+  border-bottom: 1px solid $grey;
+}
+
+.nav-area {
+    
+    ul {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 0;
+  margin-left: 8em;
+  display: inline-block;
+  }
+
+    li {
+  display: inline-block;
+  margin-right: 0.7em;
+  padding-top: 1.4em;
+  padding-right: 0.6em;
+  padding-left: 0.6em;
+  font-size: 0.95em;
+  color: $light-text;
+  height: 58px;
+  }
+
+    li:hover {
+  color: $hover-grey;
+  cursor: pointer;
+  }      
+
+}
+
+.nav-active {
+  color: $active-blue !important;
+  border-bottom: 0.25em solid $hover-blue;
+  font-weight: 600;
+}
+
+.nav-area .dropdown {
+    
+    button {
+  border: none;
+  padding: 0;
+  font-size:0.95em;
+  background-color: none;
+  margin-top: -0.18em;
+  color: $light-text;
+  }
+
+    button:hover {
+  background: none;
+  color: $hover-grey;
+  }
+
+    .caret {
+  color: $light-text;
+  }
+
+    .open {
+  background: none;
+  }
+
+}
+
+.nav-area ul .dd {
+  top: -0.4em;
+  padding-bottom: 0.1em;
+}
+
+.nav-area .dropdown .dropdown-menu {
+  margin-left: -0.9em;
+  margin-top: 0.7em;
+  @include border-radius(2px);
+  min-width: 6em;
+  max-width: 9em;
+  padding-bottom: 0.7em;
+}
+
+.nav-area .dropdown .dropdown-menu {
+
+    li {
+  height: 0.95em;
+  padding-top: 0.5em;
+  }
+
+    a {
+  padding-left: 0.4em;
+  width: 100%;
+  }  
+
+}
+
+.settings-btn {
+  display: inline-block;
+  text-align: center;
+  background: $bg-grey;
+  padding-top: 0.19em;
+  padding-bottom: 0.19em;
+  padding-right: 1.3em;
+  padding-left: 1.3em;
+  margin-right: -11em;
+  border: 1px solid $grey;
+  @include border-radius(2px);
+  float: right;
+  color: $light-text;
+  font-size: 1.4em;
+  top: 0.7em;
+}
+
+.settings-btn:hover {
+  color: $hover-grey;
+  border-color: $dgrey;
+}
+
+.result-stats {
+  margin-bottom: 1.3em;
+  margin-left: 8.5em;
+  padding-top: 1em;
+}
+
+.result-stats {
+
+  p {
+    font-size: 0.95em;
+    color: $light-text;
+  }
+
+  h4 {
+    color: $reblue;
+    margin-top: 1.5em;
+  }
+
+  .blue-text {
+    text-decoration: underline;
+  }
+
+  .blue-text:hover {
+    cursor: pointer;
+  }
+
+  .dymt {
+    color: $dym-red;
+  }
+
+  .travis {
+    color: $dblue;
+    font-style: italic;
+    font-weight: 700;
+  }
+
+}
+
+  .result-links {
+
+    h1 {
+      margin-top: 0;
+      padding-top: 0.6em;
+    }
+
+    .grey-star {
+      color: $light-text;
+      font-size: 0.7em;
+    }
+
+    ul {
+      float: right;
+      margin-right: 1em;
+  }
+
+    .c-btn {
+      background: $bg-grey;
+      width: 72px;
+      padding-top: 0.5em;
+      padding-bottom: 0.5em;
+      text-align: center;
+      border: 1px solid $grey;
+      border-radius: 2px;
+      margin-right: 0.3em;
+  }
+
+  .c-btn:hover {
+    border-color: $dgrey;
+  }
+
+}
+
+.c-btn p {
+  margin: 0;
+  font-size: 11px;
+  font-weight: 600;
+  color: $hover-grey;
+}
+
+.c-btn p:hover {
+  cursor: default;
+}
+
+.pic-card .col-md-6, .col-md-3 {
+  padding: 0;
+}
+
+.pic-card {
+  padding-left: 1.09em;
+  padding-right: 1em;
+}
+
+.pic-top {
+  margin-bottom: 0.009em;
+}
+
+.lower-card {
+  border-right: 1px solid $dgrey;
+  border-bottom: 1px solid $dgrey;
+  border-left: 1px solid $dgrey;
+  padding-left: 0.7em;
+}
+
+.ratings, .link-text {
+  clear: both;
+  display: inline-block;
+  margin-top: 2.3em;
+}
+
+.ratings {
+  color: $stars;
+  margin-bottom: 0;
+}
+
+.link-text {
+  color: $reblue;
+  margin-bottom: 0;
+}
+
+.link-text:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.person {
+  color: $light-text;
+  font-size: 13px;
+  margin-top: 0.2em;
+}
+
+.basic-info {
+  list-style: none;
+  text-align: left;
+  float: left;
+  margin-top: 3em;
+}
+
+.info-head {
+  font-weight: 700;
+}
+
+
+  @media (min-width: 992px) {
+    .col-md-offset-1 {
+      margin-left: 11.5% !important;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

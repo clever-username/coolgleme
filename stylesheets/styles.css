@@ -6116,6 +6116,16 @@ input[readonly].form-control {
 .c-btn p:hover {
   cursor: default; }
 
+.pic-card .col-md-6, .col-md-3 {
+  padding: 0; }
+
+.pic-card {
+  padding-left: 1.09em;
+  padding-right: 1em; }
+
+.pic-top {
+  margin-bottom: 0.009em; }
+
 .lower-card {
   border-right: 1px solid #B8B8B8;
   border-bottom: 1px solid #B8B8B8;
