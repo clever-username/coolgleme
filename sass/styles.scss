@@ -417,17 +417,23 @@ input[readonly].form-control {
       padding-top: 0.6em;
     }
 
-    .grey-star {
-      color: $light-text;
-      font-size: 0.7em;
-    }
+}
 
-    ul {
+.contact-btns {
       float: right;
       margin-right: 1em;
-  }
+}
 
-    .c-btn {
+.c-btn:hover {
+    border-color: $dgrey;
+}
+
+.grey-star {
+      color: $light-text;
+      font-size: 0.7em;
+}
+
+.c-btn {
       background: $bg-grey;
       width: 72px;
       padding-top: 0.5em;
@@ -437,12 +443,6 @@ input[readonly].form-control {
       border-radius: 2px;
       margin-right: 0.3em;
   }
-
-  .c-btn:hover {
-    border-color: $dgrey;
-  }
-
-}
 
 .c-btn p {
   margin: 0;
@@ -455,8 +455,10 @@ input[readonly].form-control {
   cursor: default;
 }
 
-.pic-card .col-md-6, .col-md-3 {
+.pic-card .col-md-4, .col-md-2 {
   padding: 0;
+  padding-right: 0.05em;
+  padding-left: 0.05em;
 }
 
 .pic-card {
@@ -472,7 +474,7 @@ input[readonly].form-control {
   border-right: 1px solid $dgrey;
   border-bottom: 1px solid $dgrey;
   border-left: 1px solid $dgrey;
-  padding-left: 0.7em;
+  padding-left: 1em;
 }
 
 .ratings, .link-text {
@@ -504,9 +506,8 @@ input[readonly].form-control {
 
 .basic-info {
   list-style: none;
-  text-align: left;
-  float: left;
-  margin-top: 3em;
+  padding-left: 0;
+  margin-top: 1em;
 }
 
 .info-head {

@@ -6089,13 +6089,19 @@ input[readonly].form-control {
 .result-links h1 {
   margin-top: 0;
   padding-top: 0.6em; }
-.result-links .grey-star {
-  color: #8E8E8E;
-  font-size: 0.7em; }
-.result-links ul {
+
+.contact-btns {
   float: right;
   margin-right: 1em; }
-.result-links .c-btn {
+
+.c-btn:hover {
+  border-color: #B8B8B8; }
+
+.grey-star {
+  color: #8E8E8E;
+  font-size: 0.7em; }
+
+.c-btn {
   background: #F1F1F1;
   width: 72px;
   padding-top: 0.5em;
@@ -6104,8 +6110,6 @@ input[readonly].form-control {
   border: 1px solid #dddbdb;
   border-radius: 2px;
   margin-right: 0.3em; }
-.result-links .c-btn:hover {
-  border-color: #B8B8B8; }
 
 .c-btn p {
   margin: 0;
@@ -6116,8 +6120,10 @@ input[readonly].form-control {
 .c-btn p:hover {
   cursor: default; }
 
-.pic-card .col-md-6, .col-md-3 {
-  padding: 0; }
+.pic-card .col-md-4, .col-md-2 {
+  padding: 0;
+  padding-right: 0.05em;
+  padding-left: 0.05em; }
 
 .pic-card {
   padding-left: 1.09em;
@@ -6130,7 +6136,7 @@ input[readonly].form-control {
   border-right: 1px solid #B8B8B8;
   border-bottom: 1px solid #B8B8B8;
   border-left: 1px solid #B8B8B8;
-  padding-left: 0.7em; }
+  padding-left: 1em; }
 
 .ratings, .link-text {
   clear: both;
@@ -6156,9 +6162,8 @@ input[readonly].form-control {
 
 .basic-info {
   list-style: none;
-  text-align: left;
-  float: left;
-  margin-top: 3em; }
+  padding-left: 0;
+  margin-top: 1em; }
 
 .info-head {
   font-weight: 700; }
