@@ -5873,6 +5873,19 @@ input[type="text"]:focus,
   box-shadow: none !important;
   border: 1px solid #4285f4; }
 
+textarea:hover,
+input:hover,
+textarea:active,
+input:active,
+textarea:focus,
+input:focus,
+button:focus,
+button:active,
+button:hover {
+  outline: 0px !important;
+  -webkit-appearance: none;
+  background: none !important; }
+
 input[readonly].form-control {
   background: #fff; }
 
@@ -6175,6 +6188,31 @@ input[readonly].form-control {
     font-size: 0.75em;
     margin-top: 0.2em;
     color: #8E8E8E; }
+
+.job-info a {
+  text-decoration: none; }
+
+.job-title {
+  margin-bottom: 0; }
+
+.job-title a {
+  color: #1A0DAB;
+  font-weight: 400;
+  font-size: 1.1em; }
+.job-title a:hover {
+  text-decoration: underline; }
+
+.green-url, .timespan {
+  display: inline-block;
+  margin-bottom: 0; }
+
+.green-url {
+  margin-right: 0.3em; }
+  .green-url a {
+    color: #0D6D2C; }
+
+.timespan {
+  color: #8E8E8E; }
 
 @media (min-width: 992px) {
   .col-md-offset-1 {

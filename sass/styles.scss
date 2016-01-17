@@ -134,6 +134,21 @@ input[type="text"]:focus,
   border: 1px solid $active-blue;
 }
 
+textarea:hover, 
+input:hover, 
+textarea:active, 
+input:active, 
+textarea:focus, 
+input:focus,
+button:focus,
+button:active,
+button:hover
+{
+    outline:0px !important;
+    -webkit-appearance:none;
+    background: none !important;
+}
+
 input[readonly].form-control {
   background: #fff;
 }
@@ -551,12 +566,55 @@ input[readonly].form-control {
   margin-top: 0.3em;
 }
 
+.job-info {
+
+  a {
+    text-decoration: none;
+  }
+
+}
+
+.job-title {
+  margin-bottom: 0;
+}
+
+.job-title {
+    a {
+      color: $reblue;
+      font-weight: 400;
+      font-size: 1.1em;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+  }
+
+.green-url, .timespan {
+    display: inline-block;
+    margin-bottom: 0;
+  }
+
+  .green-url {
+    a {
+      color: $regreen;
+    }
+
+    margin-right: 0.3em;
+  }
+
+  .timespan {
+    color: $light-text;
+  }
+
 
   @media (min-width: 992px) {
     .col-md-offset-1 {
       margin-left: 11.5% !important;
     }
 }
+
+
 
 
 
