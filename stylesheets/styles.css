@@ -6090,36 +6090,6 @@ input[readonly].form-control {
   margin-top: 0;
   padding-top: 0.6em; }
 
-.contact-btns {
-  float: right;
-  margin-right: 1em; }
-
-.c-btn:hover {
-  border-color: #B8B8B8; }
-
-.grey-star {
-  color: #8E8E8E;
-  font-size: 0.7em; }
-
-.c-btn {
-  background: #F1F1F1;
-  width: 72px;
-  padding-top: 0.5em;
-  padding-bottom: 0.5em;
-  text-align: center;
-  border: 1px solid #dddbdb;
-  border-radius: 2px;
-  margin-right: 0.3em; }
-
-.c-btn p {
-  margin: 0;
-  font-size: 11px;
-  font-weight: 600;
-  color: #242424; }
-
-.c-btn p:hover {
-  cursor: default; }
-
 .pic-card .col-md-4, .col-md-2 {
   padding: 0;
   padding-right: 0.05em;
@@ -6127,7 +6097,8 @@ input[readonly].form-control {
 
 .pic-card {
   padding-left: 1.09em;
-  padding-right: 1em; }
+  padding-right: 1em;
+  cursor: pointer; }
 
 .pic-top {
   margin-bottom: 0.009em; }
@@ -6138,20 +6109,11 @@ input[readonly].form-control {
   border-left: 1px solid #B8B8B8;
   padding-left: 1em; }
 
-.ratings, .link-text {
-  clear: both;
-  display: inline-block;
-  margin-top: 2.3em; }
-
-.ratings {
-  color: #E7711B;
-  margin-bottom: 0; }
-
-.link-text {
+.link-text, .related-names .people-link {
   color: #1A0DAB;
   margin-bottom: 0; }
 
-.link-text:hover {
+.link-text:hover, .related-names .people-link:hover {
   text-decoration: underline;
   cursor: pointer; }
 
@@ -6160,13 +6122,59 @@ input[readonly].form-control {
   font-size: 13px;
   margin-top: 0.2em; }
 
-.basic-info {
+.info-a, .blurb, .info-head, .quote-list {
+  line-height: 1.3em;
+  font-size: 0.95em; }
+
+.basic-info, .quote-list {
   list-style: none;
   padding-left: 0;
   margin-top: 1em; }
 
+.basic-info p, .quote-list p {
+  display: inline-block;
+  margin-bottom: 0.3em; }
+
 .info-head {
   font-weight: 700; }
+
+.quote-list {
+  font-style: italic; }
+
+.quote-list li {
+  margin-bottom: 0.8em; }
+
+.related-text {
+  margin-top: 1.5em; }
+
+.related-people img {
+  display: inline-block;
+  margin-right: 1em; }
+
+.related-names {
+  line-height: 0.95em;
+  margin-top: 0.3em; }
+  .related-names ul {
+    list-style: none;
+    padding-left: 0; }
+  .related-names ul li {
+    display: inline-block;
+    margin-right: 3.35em; }
+  .related-names .c-j {
+    margin-right: 0;
+    margin-left: -0.4em; }
+  .related-names .m-c {
+    margin-left: -0.8em; }
+  .related-names .s-j {
+    margin-left: -0.1em; }
+  .related-names .j-b {
+    margin-left: -1.3em; }
+  .related-names .people-link:hover {
+    text-decoration: none; }
+  .related-names .who-is {
+    font-size: 0.75em;
+    margin-top: 0.2em;
+    color: #8E8E8E; }
 
 @media (min-width: 992px) {
   .col-md-offset-1 {

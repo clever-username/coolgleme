@@ -419,42 +419,6 @@ input[readonly].form-control {
 
 }
 
-.contact-btns {
-      float: right;
-      margin-right: 1em;
-}
-
-.c-btn:hover {
-    border-color: $dgrey;
-}
-
-.grey-star {
-      color: $light-text;
-      font-size: 0.7em;
-}
-
-.c-btn {
-      background: $bg-grey;
-      width: 72px;
-      padding-top: 0.5em;
-      padding-bottom: 0.5em;
-      text-align: center;
-      border: 1px solid $grey;
-      border-radius: 2px;
-      margin-right: 0.3em;
-  }
-
-.c-btn p {
-  margin: 0;
-  font-size: 11px;
-  font-weight: 600;
-  color: $hover-grey;
-}
-
-.c-btn p:hover {
-  cursor: default;
-}
-
 .pic-card .col-md-4, .col-md-2 {
   padding: 0;
   padding-right: 0.05em;
@@ -464,6 +428,7 @@ input[readonly].form-control {
 .pic-card {
   padding-left: 1.09em;
   padding-right: 1em;
+  cursor: pointer;
 }
 
 .pic-top {
@@ -475,17 +440,6 @@ input[readonly].form-control {
   border-bottom: 1px solid $dgrey;
   border-left: 1px solid $dgrey;
   padding-left: 1em;
-}
-
-.ratings, .link-text {
-  clear: both;
-  display: inline-block;
-  margin-top: 2.3em;
-}
-
-.ratings {
-  color: $stars;
-  margin-bottom: 0;
 }
 
 .link-text {
@@ -504,14 +458,97 @@ input[readonly].form-control {
   margin-top: 0.2em;
 }
 
+.blurb {
+  @extend .info-a;
+}
+
+.info-a {
+  line-height: 1.3em;
+  font-size: 0.95em;
+}
+
 .basic-info {
   list-style: none;
   padding-left: 0;
   margin-top: 1em;
 }
 
+.basic-info p {
+  display: inline-block;
+  margin-bottom: 0.3em;
+}
+
 .info-head {
+  @extend .info-a;
   font-weight: 700;
+}
+
+.quote-list {
+  @extend .info-a;
+  @extend .basic-info;
+  font-style: italic;
+}
+
+.quote-list li {
+  margin-bottom: 0.8em;
+}
+
+.related-text {
+  margin-top: 1.5em;
+}
+
+.related-people {
+  img {
+    display: inline-block;
+    margin-right: 1em;
+  }
+
+}
+
+.related-names {
+  ul {
+    list-style: none;
+    padding-left: 0;
+  }
+
+  ul li {
+    display: inline-block;
+    margin-right: 3.35em;
+  }
+
+  .c-j {
+    margin-right: 0;
+    margin-left: -0.4em;
+  }
+
+  .m-c {
+    margin-left: -0.8em;
+  }
+
+  .s-j {
+    margin-left: -0.1em;
+  }
+
+  .j-b {
+    margin-left: -1.3em;
+  }
+
+  .people-link {
+    @extend .link-text;
+  }
+
+  .people-link:hover {
+    text-decoration: none;
+  }
+
+  .who-is {
+    font-size: 0.75em;
+    margin-top: 0.2em;
+    color: $light-text;
+  }
+
+  line-height: 0.95em;
+  margin-top: 0.3em;
 }
 
 
