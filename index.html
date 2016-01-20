@@ -7,6 +7,17 @@
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <title>Travis Thielen's Awesome Resume</title>
 
+    <!-- Facebook Open Graph info -->
+    <meta property="og:url"           content="http://www.your-domain.com/your-page.html" />
+    <meta property="og:type"          content="website" />
+    <meta property="og:title"         content="Travis Thielen's Awesome Resume" />
+    <meta property="og:description"   content="Awesome Google inspired resume site by Travis Thielen" />
+    <meta property="og:image"         content="http://www.your-domain.com/path/image.jpg" />
+
+    <!-- Prefetch important sites most likely to be visited next -->
+    <link rel="prefetch" href="http://bluewebdesigners.com/" />
+    <link rel="prefetch" href="https://www.linkedin.com/in/travis-thielen-3abb6260" />
+
     <!-- Bootstrap -->
     <link rel="stylesheet" href="stylesheets/styles.css" type="text/css" />
 
@@ -19,6 +30,9 @@
 
     <!-- Google fonts -->
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:700italic,400,600|EB+Garamond' rel='stylesheet' type='text/css'>
+
+    <!-- Font Awesome integration -->
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha256-3dkvEK0WLHRJ7/Csr0BZjAWxERc5WH7bdeUya2aXxdU= sha512-+L4yy6FRcDGbXJ9mPG8MT/3UCDzwR9gPeyFNMCtInsol++5m3bk2bXWKdZjvybmohrAsn3Ua5x8gfLnbE1YkOg==" crossorigin="anonymous">
 
   </head>
   <body>
@@ -58,13 +72,13 @@
           <li>Maps</li>
           <li>News</li>
           <li class="dd">
-            <div class="dropdown">
-              <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+            <div class="dropdown btn-group">
+              <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 More
                 <span class="caret"></span>
               </button>
               <!-- hidden dropdown menu- MUST DELETE HIDDEN CLASS BEFORE GOING LIVE -->
-              <ul class="dropdown-menu hidden" aria-labelledby="dropdownMenu1">
+              <ul class="dropdown-menu">
                 <li><a href="#">Shopping</a></li>
                 <li><a href="#">Books</a></li>
                 <li><a href="#">Flights</a></li>
@@ -85,6 +99,18 @@
     <div class="result-stats">
       <div class="container-fluid">
         <p class="stats">About 1 in 1,000,000 results (0.58 seconds)</p>
+        <!-- Share Buttons -->
+            <ul class="sharing-buttons">
+              <li>
+                <a class="facebook" href="https://www.facebook.com/sharer/sharer.php?u=REPLACE WITH ENCODED FINAL URL" target="_blank"><i class="fa fa-facebook-square"></i> Share on Facebook</a>
+              </li>
+              <li>
+                <a class="twitter" href="https://twitter.com/intent/tweet?url=REPLACE WITH ENCODED FINAL URLtext=REPLACE WITH ENCODED DEFAULT TEXT FOR TWEETvia=REPLACE WITH TWITTER HANDLE" target="_blank"><i class="fa fa-twitter-square"></i> Tweet</a>
+              </li>
+              <li>
+                <a class="google-plus" href="https://plus.google.com/share?url=REPLACE WITH ENCODED FINAL URL" target="_blank"><i class="fa fa-google-plus-square"></i> Share on Google+</a>
+              </li>
+            </ul>
         <h4><span class="dymt">Did you mean:</span> <span class="blue-text">how do I hire <span class="travis">Travis Thielen</span></span></h4>
       </div>
     </div>
@@ -120,7 +146,7 @@
               <h4>Quotes</h4>
               <ul class="quote-list">
                 <li>Not just good, good enough.</li>
-                <li>Behind every great woman is a man who gets paid more.</li>
+                <li>Whether you think you can or you think you can't, you're right.</li>
                 <li>Never take requests unless asked to do so.</li>
               </ul>
               <h4 class="related-text">People also search for</h4>
@@ -144,24 +170,60 @@
           </div>
           <!-- Job history and info -->
           <div class="job-info col-md-5 col-md-pull-5 col-md-offset-2">
-            <h4 class="job-title"><a href="http://bluewebdesigners.com/">Blue Web Media - Creative Director</a></h4>
-            <p class="green-url"><a href="http://bluewebdesigners.com/">http://bluewebdesigners.com/</a></p>
+            <h4 class="job-title"><a href="http://bluewebdesigners.com/" target="_blank">Blue Web Media - Creative Director</a></h4>
+            <p class="green-url"><a href="http://bluewebdesigners.com/" target="_blank">http://bluewebdesigners.com/</a></p>
             <p class="timespan">February 2013 - Present</p>
             <p class="job-description">Handled all client accounts from sales leads to job completion. Created original copy for websites, social media, and advertisement campaigns. Responsible for generating contracts, invoices, and quarterly sales reports. Built and maintained highly customized Wordpress powered websites. Researched and implemented wide variety of solutions to meet specific needs of individual clients.</p>
 
             <br>
 
-            <h4 class="job-title"><a href="http://www.dukeswaikiki.com/">Duke's Canoe Club - Expeditor/Lunch Server</a></h4>
-            <p class="green-url"><a href="http://www.dukeswaikiki.com/">www.dukeswaikiki.com</a></p>
+            <h4 class="job-title"><a href="http://www.dukeswaikiki.com/" target="_blank">Duke's Canoe Club - Expeditor/Lunch Server</a></h4>
+            <p class="green-url"><a href="http://www.dukeswaikiki.com/" target="_blank">www.dukeswaikiki.com</a></p>
             <p class="timespan">August 2006 - March 2015</p>
             <p class="job-description">Led a small team responsible for food presentation, delivery, and complaint mitigation. Engaged in daily customer satisfaction and relations. Tasked with consistent completion of weekly goals and sales targets.</p>
 
             <br>
 
-            <h4 class="job-title"><a href="http://www2.waimeahighschool.org/">Education - Waimea High School</a></h4>
-            <p class="green-url"><a href="http://www2.waimeahighschool.org/">www2.waimeahighschool.org/</a></p>
+            <h4 class="job-title"><a href="http://www2.waimeahighschool.org/" target="_blank">Education - Waimea High School</a></h4>
+            <p class="green-url"><a href="http://www2.waimeahighschool.org/" target="blank">www2.waimeahighschool.org/</a></p>
             <p class="timespan">Class of 2006</p>
             <p class="job-description">Recieved Diploma. Awarded DECA All-Around Business and Marketing Excellence medal. Completed courses in HTML, CSS, Photoshop, and Illustrator.</p>
+
+            <br>
+
+            <h4 class="job-title"><a href="https://www.linkedin.com/in/travis-thielen-3abb6260" target="_blank">Travis Thielen | Linkedin</a></h4>
+            <div class="ad"><p>Ad</p></div>
+            <p class="green-url"><a href="https://www.linkedin.com/in/travis-thielen-3abb6260" target="_blank">https://www.linkedin.com/in/travis-thielen-3abb6260</a></p>
+            <p class="job-description">Credited as being one of the most overlooked individuals in the web development field, Travis is sure to be hired quickly by any company that he applies to ...</p>
+
+            <br>
+
+            <h4 class="job-title"><a href="https://github.com/clever-username" target="_blank">Travis Thielen | Github</a></h4>
+            <div class="ad"><p>Ad</p></div>
+            <p class="green-url"><a href="https://github.com/clever-username" target="_blank">https://github.com/clever-username</a></p>
+            <p class="job-description">Relatively new to Github but making up for lost time by putting the code for this resume page in his repository as well as actively contributing to various projects. look for continual progress ...</p>
+
+            <br>
+
+            <h4 class="job-title"><a href="mailto:travis@stuxweb.com" target="_blank">Travis Thielen | Email</a></h4>
+            <div class="ad"><p>Ad</p></div>
+            <p class="green-url"><a href="mailto:travis@stuxweb.com" target="_blank">travis@stuxweb.com</a></p>
+            <p class="job-description">Interested in hiring me? Curious about working with me? Just lonely and want to talk? Feel free to drop me a line and I'll get back to you as quick as I can ...</p>
+
+            <br>
+
+            <!-- Share Buttons -->
+            <ul class="sharing-buttons">
+              <li>
+                <a class="facebook" href="https://www.facebook.com/sharer/sharer.php?u=REPLACE WITH ENCODED FINAL URL" target="_blank"><i class="fa fa-facebook-square"></i> Share on Facebook</a>
+              </li>
+              <li>
+                <a class="twitter" href="https://twitter.com/intent/tweet?url=REPLACE WITH ENCODED FINAL URLtext=REPLACE WITH ENCODED DEFAULT TEXT FOR TWEETvia=REPLACE WITH TWITTER HANDLE" target="_blank"><i class="fa fa-twitter-square"></i> Tweet</a>
+              </li>
+              <li>
+                <a class="google-plus" href="https://plus.google.com/share?url=REPLACE WITH ENCODED FINAL URL" target="_blank"><i class="fa fa-google-plus-square"></i> Share on Google+</a>
+              </li>
+            </ul>
           </div>
         </div>
       </div>

@@ -398,6 +398,20 @@ input[readonly].form-control {
   p {
     font-size: 0.95em;
     color: $light-text;
+    display: inline-block;
+  }
+
+  .sharing-buttons {
+    display: inline-block;
+    float: right;
+  }
+
+  .google-plus, .facebook, .twitter {
+    color: $light-text;
+  }
+
+  .facebook:hover, .twitter:hover, .google-plus:hover {
+    color: $hover-grey;
   }
 
   h4 {
@@ -605,6 +619,47 @@ input[readonly].form-control {
 
   .timespan {
     color: $light-text;
+  }
+
+  // Sharing Buttons //
+
+  .sharing-buttons {
+    list-style: none;
+    padding: 0;
+
+    li {
+      display: inline-block;
+      margin-right: 0.5em;
+    }
+  }
+
+  .facebook, .twitter, .google-plus {
+    color: $reblue;
+  }
+
+  .facebook:hover, .twitter:hover, .google-plus:hover {
+    color: $reblue;
+    text-decoration: underline;
+  }
+
+  .ad {
+    background: $ads;
+    padding: 0;
+    border-radius: 0.15em;
+    text-align: center;
+    color: #fff;
+    display: inline-block;
+    height: 1em;
+    padding-left: 0.15em;
+    padding-right: 0.15em;
+
+    p {
+      margin: 0;
+      font-weight: 400;
+      font-size: 0.85em;
+      line-height: 1.2em;
+      vertical-align: center;
+    }
   }
 
 

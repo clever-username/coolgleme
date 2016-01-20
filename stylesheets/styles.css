@@ -6084,7 +6084,15 @@ input[readonly].form-control {
 
 .result-stats p {
   font-size: 0.95em;
+  color: #8E8E8E;
+  display: inline-block; }
+.result-stats .sharing-buttons {
+  display: inline-block;
+  float: right; }
+.result-stats .google-plus, .result-stats .facebook, .result-stats .twitter {
   color: #8E8E8E; }
+.result-stats .facebook:hover, .result-stats .twitter:hover, .result-stats .google-plus:hover {
+  color: #242424; }
 .result-stats h4 {
   color: #1A0DAB;
   margin-top: 1.5em; }
@@ -6213,6 +6221,37 @@ input[readonly].form-control {
 
 .timespan {
   color: #8E8E8E; }
+
+.sharing-buttons {
+  list-style: none;
+  padding: 0; }
+  .sharing-buttons li {
+    display: inline-block;
+    margin-right: 0.5em; }
+
+.facebook, .twitter, .google-plus {
+  color: #1A0DAB; }
+
+.facebook:hover, .twitter:hover, .google-plus:hover {
+  color: #1A0DAB;
+  text-decoration: underline; }
+
+.ad {
+  background: #EFC439;
+  padding: 0;
+  border-radius: 0.15em;
+  text-align: center;
+  color: #fff;
+  display: inline-block;
+  height: 1em;
+  padding-left: 0.15em;
+  padding-right: 0.15em; }
+  .ad p {
+    margin: 0;
+    font-weight: 400;
+    font-size: 0.85em;
+    line-height: 1.2em;
+    vertical-align: center; }
 
 @media (min-width: 992px) {
   .col-md-offset-1 {
