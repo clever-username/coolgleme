@@ -5993,12 +5993,13 @@ input[readonly].form-control {
   height: 59px;
   border-bottom: 1px solid #dddbdb; }
 
+.nav-area .main-nav {
+  display: inline-block; }
 .nav-area ul {
   list-style: none;
   padding: 0;
   margin-bottom: 0;
-  margin-left: 8em;
-  display: inline-block; }
+  margin-left: 8em; }
 .nav-area li {
   display: inline-block;
   margin-right: 0.7em;
@@ -6021,8 +6022,8 @@ input[readonly].form-control {
   border: none;
   padding: 0;
   font-size: 0.95em;
-  background-color: none;
-  margin-top: -0.18em;
+  background-color: #fff;
+  margin-top: -0.01em;
   color: #8E8E8E; }
 .nav-area .dropdown button:hover {
   background: none;
@@ -6031,6 +6032,10 @@ input[readonly].form-control {
   color: #8E8E8E; }
 .nav-area .dropdown .open {
   background: none; }
+
+.button-group.open, .dropdown-toggle {
+  box-shadow: none !important;
+  background: none !important; }
 
 .nav-area ul .dd {
   top: -0.4em;
@@ -6043,16 +6048,29 @@ input[readonly].form-control {
   -moz-border-radius: 2px;
   -ms-border-radius: 2px;
   border-radius: 2px;
-  min-width: 6em;
-  max-width: 9em;
+  min-width: 9em;
+  max-width: 12em;
   padding-bottom: 0.7em; }
+
+.top-drop-item {
+  margin-top: 0.3em; }
 
 .nav-area .dropdown .dropdown-menu li {
   height: 0.95em;
-  padding-top: 0.5em; }
-.nav-area .dropdown .dropdown-menu a {
-  padding-left: 0.4em;
+  padding: 0;
+  margin: 0;
   width: 100%; }
+.nav-area .dropdown .dropdown-menu a {
+  margin-top: 0.3em;
+  padding-top: 0.4em;
+  padding-right: 3em;
+  padding-bottom: 0.4em;
+  padding-left: 1.5em;
+  width: 100%;
+  font-size: 0.95em;
+  color: #8E8E8E; }
+.nav-area .dropdown .dropdown-menu a:hover {
+  color: #242424; }
 
 .settings-btn {
   display: inline-block;
@@ -6252,6 +6270,24 @@ input[readonly].form-control {
     font-size: 0.85em;
     line-height: 1.2em;
     vertical-align: center; }
+
+.test-nav ul {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 0;
+  margin-left: 8em; }
+.test-nav li {
+  display: inline-block;
+  margin-right: 0.7em;
+  padding-top: 1.4em;
+  padding-right: 0.6em;
+  padding-left: 0.6em;
+  font-size: 0.95em;
+  color: #8E8E8E;
+  height: 58px; }
+.test-nav li:hover {
+  color: #242424;
+  cursor: pointer; }
 
 @media (min-width: 992px) {
   .col-md-offset-1 {

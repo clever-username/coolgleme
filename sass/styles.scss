@@ -278,13 +278,16 @@ input[readonly].form-control {
 }
 
 .nav-area {
+
+  .main-nav {
+    display: inline-block;
+  }
     
     ul {
   list-style: none;
   padding: 0;
   margin-bottom: 0;
   margin-left: 8em;
-  display: inline-block;
   }
 
     li {
@@ -317,8 +320,8 @@ input[readonly].form-control {
   border: none;
   padding: 0;
   font-size:0.95em;
-  background-color: none;
-  margin-top: -0.18em;
+  background-color: #fff;
+  margin-top: -0.01em;
   color: $light-text;
   }
 
@@ -337,6 +340,11 @@ input[readonly].form-control {
 
 }
 
+.button-group.open, .dropdown-toggle {
+  box-shadow: none !important;
+  background: none !important;
+}
+
 .nav-area ul .dd {
   top: -0.4em;
   padding-bottom: 0.1em;
@@ -346,22 +354,38 @@ input[readonly].form-control {
   margin-left: -0.9em;
   margin-top: 0.7em;
   @include border-radius(2px);
-  min-width: 6em;
-  max-width: 9em;
+  min-width: 9em;
+  max-width: 12em;
   padding-bottom: 0.7em;
 }
+
+.top-drop-item {
+      margin-top: 0.3em;
+    }
 
 .nav-area .dropdown .dropdown-menu {
 
     li {
   height: 0.95em;
-  padding-top: 0.5em;
+  padding: 0;
+  margin: 0;
+  width: 100%;
   }
 
     a {
-  padding-left: 0.4em;
+  margin-top: 0.3em;
+  padding-top: 0.4em;
+  padding-right: 3em;
+  padding-bottom: 0.4em;
+  padding-left: 1.5em;
   width: 100%;
+  font-size: 0.95em;
+  color: $light-text;
   }  
+
+  a:hover {
+    color: $hover-grey;
+  }
 
 }
 
@@ -659,6 +683,31 @@ input[readonly].form-control {
       font-size: 0.85em;
       line-height: 1.2em;
       vertical-align: center;
+    }
+  }
+
+  .test-nav {
+      ul {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 0;
+    margin-left: 8em;
+    }
+
+      li {
+    display: inline-block;
+    margin-right: 0.7em;
+    padding-top: 1.4em;
+    padding-right: 0.6em;
+    padding-left: 0.6em;
+    font-size: 0.95em;
+    color: $light-text;
+    height: 58px;
+    }
+
+      li:hover {
+    color: $hover-grey;
+    cursor: pointer;
     }
   }
 
