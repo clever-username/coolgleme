@@ -6154,7 +6154,8 @@ input[readonly].form-control {
 
 .link-text:hover, .related-names .people-link:hover {
   text-decoration: underline;
-  cursor: pointer; }
+  cursor: pointer;
+  color: #1A0DAB; }
 
 .person {
   color: #8E8E8E;
