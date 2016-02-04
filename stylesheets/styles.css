@@ -5795,6 +5795,7 @@ button.close {
 @media print {
   .hidden-print {
     display: none !important; } }
+/* Set standard sizes */
 html {
   font-size: 1em; }
 
@@ -5822,6 +5823,7 @@ body {
   padding: 0;
   font: "Open-Sans", sans-serif; }
 
+/* Header area and 'coolgle' logo */
 header {
   margin: 0;
   padding: 0; }
@@ -5861,6 +5863,7 @@ header {
 .green {
   color: #009925; }
 
+/* Search bar */
 .gbar .input-group {
   margin-top: -11px;
   width: 640px; }
@@ -5905,6 +5908,7 @@ input[readonly].form-control {
   color: #000;
   font-size: 15px; }
 
+/* Magnifying glass */
 .gbar .input-group .input-group-addon {
   width: 21px;
   background: #4285f4;
@@ -5940,6 +5944,7 @@ input[readonly].form-control {
 .gbar .form-inline {
   display: inline-block; }
 
+/* Top account icons */
 .header .account-icons {
   display: inline-block;
   float: right;
@@ -5993,6 +5998,7 @@ input[readonly].form-control {
   height: 59px;
   border-bottom: 1px solid #dddbdb; }
 
+/* Main nav */
 .nav-area .main-nav {
   display: inline-block; }
 .nav-area ul {
@@ -6072,6 +6078,7 @@ input[readonly].form-control {
 .nav-area .dropdown .dropdown-menu a:hover {
   color: #242424; }
 
+/* Settings button */
 .settings-btn {
   display: inline-block;
   text-align: center;
@@ -6095,40 +6102,46 @@ input[readonly].form-control {
   color: #242424;
   border-color: #B8B8B8; }
 
+/* Result stats */
 .result-stats {
   margin-bottom: 1.3em;
   margin-left: 8.5em;
   padding-top: 1em; }
 
-.result-stats p {
-  font-size: 0.95em;
-  color: #8E8E8E;
-  display: inline-block; }
-.result-stats .sharing-buttons {
-  display: inline-block;
-  float: right; }
-.result-stats .google-plus, .result-stats .facebook, .result-stats .twitter {
-  color: #8E8E8E; }
-.result-stats .facebook:hover, .result-stats .twitter:hover, .result-stats .google-plus:hover {
-  color: #242424; }
-.result-stats h4 {
-  color: #1A0DAB;
-  margin-top: 1.5em; }
-.result-stats .blue-text {
-  text-decoration: underline; }
-.result-stats .blue-text:hover {
-  cursor: pointer; }
-.result-stats .dymt {
-  color: #C7161C; }
-.result-stats .travis {
-  color: #0028D5;
-  font-style: italic;
-  font-weight: 700; }
+.result-stats {
+  /* Sharing buttons */
+  /* Corrective text */ }
+  .result-stats p {
+    font-size: 0.95em;
+    color: #8E8E8E;
+    display: inline-block; }
+  .result-stats .sharing-buttons {
+    display: inline-block;
+    float: right; }
+  .result-stats .google-plus, .result-stats .facebook, .result-stats .twitter {
+    color: #8E8E8E; }
+  .result-stats .facebook:hover, .result-stats .twitter:hover, .result-stats .google-plus:hover {
+    color: #242424; }
+  .result-stats h4 {
+    color: #1A0DAB;
+    margin-top: 1.5em; }
+  .result-stats .blue-text {
+    text-decoration: underline; }
+  .result-stats .blue-text:hover {
+    cursor: pointer; }
+  .result-stats .dymt {
+    color: #C7161C; }
+  .result-stats .travis {
+    color: #0028D5;
+    font-style: italic;
+    font-weight: 700; }
 
+/* Result links */
 .result-links h1 {
   margin-top: 0;
   padding-top: 0.6em; }
 
+/* Basic information card */
 .pic-card .col-md-4, .col-md-2 {
   padding: 0;
   padding-right: 0.05em;
@@ -6216,6 +6229,7 @@ input[readonly].form-control {
     margin-top: 0.2em;
     color: #8E8E8E; }
 
+/* Job history/search results */
 .job-info a {
   text-decoration: none; }
 
@@ -6241,6 +6255,7 @@ input[readonly].form-control {
 .timespan {
   color: #8E8E8E; }
 
+/* Sharing Buttons */
 .sharing-buttons {
   list-style: none;
   padding: 0; }
@@ -6272,24 +6287,14 @@ input[readonly].form-control {
     line-height: 1.2em;
     vertical-align: center; }
 
-.test-nav ul {
-  list-style: none;
-  padding: 0;
-  margin-bottom: 0;
-  margin-left: 8em; }
-.test-nav li {
-  display: inline-block;
-  margin-right: 0.7em;
-  padding-top: 1.4em;
-  padding-right: 0.6em;
-  padding-left: 0.6em;
-  font-size: 0.95em;
-  color: #8E8E8E;
-  height: 58px; }
-.test-nav li:hover {
-  color: #242424;
-  cursor: pointer; }
-
-@media (min-width: 992px) {
+/* Large Devices, Wide Screens */
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 992px) {
   .col-md-offset-1 {
     margin-left: 11.5% !important; } }
+/* Small Devices, Tablets */
+@media only screen and (max-width: 768px) {
+  .coolgle {
+    display: none; } }
+/* Extra Small Devices, Phones */
+/* Custom, iPhone Retina */

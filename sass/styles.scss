@@ -37,6 +37,8 @@ $dblue: #0028D5;
 $ads: #EFC439;
 $stars: #E7711B;
 
+/* Set standard sizes */
+
 html { 
   font-size: 1em; 
 }
@@ -71,6 +73,8 @@ body {
   padding: 0;
   font: $font-stack;
 }
+
+/* Header area and 'coolgle' logo */
 
 header {
   margin: 0;
@@ -119,6 +123,8 @@ header {
 .green {
   color: $gg;
 }
+
+/* Search bar */
 
 .gbar .input-group {
   margin-top: -11px;
@@ -173,6 +179,8 @@ input[readonly].form-control {
   font-size: 15px;
 }
 
+/* Magnifying glass */
+
 .gbar .input-group .input-group-addon {
   width: 21px;
   background: $active-blue;
@@ -208,6 +216,8 @@ input[readonly].form-control {
 .gbar .form-inline {
   display: inline-block;
 }
+
+/* Top account icons */
 
 .header .account-icons {
   display: inline-block;
@@ -276,6 +286,8 @@ input[readonly].form-control {
   height: 59px;
   border-bottom: 1px solid $grey;
 }
+
+/* Main nav */
 
 .nav-area {
 
@@ -389,6 +401,8 @@ input[readonly].form-control {
 
 }
 
+/* Settings button */
+
 .settings-btn {
   display: inline-block;
   text-align: center;
@@ -411,6 +425,8 @@ input[readonly].form-control {
   border-color: $dgrey;
 }
 
+/* Result stats */
+
 .result-stats {
   margin-bottom: 1.3em;
   margin-left: 8.5em;
@@ -425,6 +441,8 @@ input[readonly].form-control {
     display: inline-block;
   }
 
+/* Sharing buttons */
+
   .sharing-buttons {
     display: inline-block;
     float: right;
@@ -437,6 +455,8 @@ input[readonly].form-control {
   .facebook:hover, .twitter:hover, .google-plus:hover {
     color: $hover-grey;
   }
+
+/* Corrective text */
 
   h4 {
     color: $reblue;
@@ -463,6 +483,8 @@ input[readonly].form-control {
 
 }
 
+/* Result links */
+
   .result-links {
 
     h1 {
@@ -471,6 +493,8 @@ input[readonly].form-control {
     }
 
 }
+
+/* Basic information card */
 
 .pic-card .col-md-4, .col-md-2 {
   padding: 0;
@@ -605,6 +629,8 @@ input[readonly].form-control {
   margin-top: 0.3em;
 }
 
+/* Job history/search results */
+
 .job-info {
 
   a {
@@ -646,7 +672,7 @@ input[readonly].form-control {
     color: $light-text;
   }
 
-  // Sharing Buttons //
+  /* Sharing Buttons */
 
   .sharing-buttons {
     list-style: none;
@@ -687,37 +713,40 @@ input[readonly].form-control {
     }
   }
 
-  .test-nav {
-      ul {
-    list-style: none;
-    padding: 0;
-    margin-bottom: 0;
-    margin-left: 8em;
-    }
 
-      li {
-    display: inline-block;
-    margin-right: 0.7em;
-    padding-top: 1.4em;
-    padding-right: 0.6em;
-    padding-left: 0.6em;
-    font-size: 0.95em;
-    color: $light-text;
-    height: 58px;
-    }
 
-      li:hover {
-    color: $hover-grey;
-    cursor: pointer;
-    }
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+  .col-md-offset-1 {
+    margin-left: 11.5% !important;
+  }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+
+  .coolgle {
+    display: none;
   }
 
-
-  @media (min-width: 992px) {
-    .col-md-offset-1 {
-      margin-left: 11.5% !important;
-    }
 }
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (max-width : 480px) {
+
+}
+
+/* Custom, iPhone Retina */ 
+@media only screen and (max-width : 320px) {
+    
+}
+
+  
 
 
 
