@@ -89,7 +89,7 @@ header {
 }
 
 .gbar {
-  height: 59px;
+  height: 4.2em;
   width: 100%;
   background: $bg-grey;
   margin: 0;
@@ -127,7 +127,7 @@ header {
 /* Search bar */
 
 .gbar .input-group {
-  margin-top: -11px;
+  margin-top: 0.65em;
   width: 640px;
 }
 
@@ -411,7 +411,7 @@ input[readonly].form-control {
   padding-bottom: 0.19em;
   padding-right: 1.3em;
   padding-left: 1.3em;
-  margin-right: -11em;
+  margin-right: 1em;
   border: 1px solid $grey;
   @include border-radius(2px);
   float: right;
@@ -730,12 +730,8 @@ input[readonly].form-control {
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
 
-  .coolgle, .gbar {
-    display: block;
-  }
-
   .coolgle {
-    text-align: center;
+    margin-left: 5em;
   }
 
 }
