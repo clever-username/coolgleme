@@ -730,8 +730,12 @@ input[readonly].form-control {
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
 
+  .coolgle, .gbar {
+    display: block;
+  }
+
   .coolgle {
-    display: none;
+    text-align: center;
   }
 
 }

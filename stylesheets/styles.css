@@ -6294,7 +6294,10 @@ input[readonly].form-control {
     margin-left: 11.5% !important; } }
 /* Small Devices, Tablets */
 @media only screen and (max-width: 768px) {
+  .coolgle, .gbar {
+    display: block; }
+
   .coolgle {
-    display: none; } }
+    text-align: center; } }
 /* Extra Small Devices, Phones */
 /* Custom, iPhone Retina */

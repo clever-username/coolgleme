@@ -1,0 +1,1 @@
+$(document).ready(function(){var a="travis",t="stuxweb.com";$(".email-contact-link").html('<a class="link-text" href="mailto:'+a+"@"+t+'">'+a+"@"+t+"</a>"),$(".email-contact-reg").html('<a href="mailto:'+a+"@"+t+'">'+a+"@"+t+"</a>"),$(".email-contact-sr").html('<a href="mailto:'+a+"@"+t+'">Travis Thielen | Email</a>')});
