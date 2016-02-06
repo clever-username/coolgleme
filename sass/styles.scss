@@ -733,59 +733,6 @@ input[readonly].form-control {
     margin-left: 11.5% !important;
   }
 
-    /* Header no longer seperated by a full width border-shadow */
-  body {
-    background: $bg-grey;
-  }
-
-  .gbar {
-    background: none;
-    border: none;
-  }
-
-  .coolgle {
-    padding: 0;
-    margin: 0;
-
-    p {
-      text-align: center;
-      font-weight: bold;
-    }
-  }
-
-  /* remove settings icons and settings button */
-
-  .account-icons {
-    ul {
-      display: none;
-    }
-  }
-
-  .settings-btn {
-    display: none;
-  }
-
-  /* Center search bar */
-  .gbar .form-inline {
-    padding: 0;
-    margin-left: 7.7%;
-  }
-
-  /* get rid of white background from selected more button and move the main nav in line with the new search bar position*/
-  .main-nav {
-    .button-group.open, .dropdown-toggle {
-    background: $bg-grey !important;
-  }
-}
-
-.nav-area .main-nav {
-  margin-left: 6.5%;
-}
-
-  /*move the result stats over */
-.result-stats {
-  margin-left: 6.5%;
-}
 }
 
 /* Small Devices, Tablets */
@@ -823,9 +770,14 @@ input[readonly].form-control {
   }
 
   /* Center search bar */
-  .gbar .form-inline {
-    padding: 0;
-    margin-left: 7.7%;
+  .gbar {
+    .form-inline {
+      padding: 0;
+    }
+    
+    .input-group {
+      width: 100%;
+    }
   }
 
   /* get rid of white background from selected more button and move the main nav in line with the new search bar position*/
