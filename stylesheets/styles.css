@@ -5847,8 +5847,8 @@ header {
   border-bottom: 1px solid #dddbdb; }
 
 .coolgle {
-  margin-left: 1.1em;
-  margin-right: 1.6em;
+  margin-left: 0.4em;
+  margin-right: 0;
   display: inline-block; }
 
 .blue {
@@ -5864,6 +5864,10 @@ header {
   color: #009925; }
 
 /* Search bar */
+.gbar .form-inline {
+  margin: 0;
+  padding: 0; }
+
 .gbar .input-group {
   margin-top: 0.65em;
   width: 640px; }
@@ -6294,12 +6298,51 @@ input[readonly].form-control {
     margin-left: 11.5% !important; } }
 /* Small Devices, Tablets */
 @media only screen and (max-width: 768px) {
+  /* Header no longer seperated by a full width border-shadow */
+  body {
+    background: #F1F1F1; }
+
+  .gbar {
+    background: none;
+    border: none; }
+
   .coolgle {
-    padding: 0; }
+    padding: 0;
+    margin: 0; }
+    .coolgle p {
+      text-align: center;
+      font-weight: bold; }
+
+  /* remove settings icons and settings button */
+  .account-icons ul {
+    display: none; }
+
+  .settings-btn {
+    display: none; }
+
+  /* Center search bar */
+  .gbar .form-inline {
+    padding: 0;
+    margin-left: 7.7%; }
+
+  /* get rid of white background from selected more button and move the main nav in line with the new search bar position*/
+  .main-nav .button-group.open, .main-nav .dropdown-toggle {
+    background: #F1F1F1 !important; }
+
+  .nav-area .main-nav {
+    margin-left: 6.5%; }
+
+  /*move the result stats over */
+  .result-stats {
+    margin-left: 6.5%; } }
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 480px) {
+  .coolgle {
+    padding: 0;
+    margin: 0; }
     .coolgle p {
       text-align: center; }
 
   .gbar {
     padding: 0; } }
-/* Extra Small Devices, Phones */
 /* Custom, iPhone Retina */
