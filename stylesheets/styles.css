@@ -5828,11 +5828,14 @@ header {
   margin: 0;
   padding: 0; }
 
-.coogle p {
+.coolgle p {
   margin: 0;
   font-family: 'EB Garamond', sans-serif;
   font-size: 2em;
   padding-top: 0.5rem; }
+
+.coolgle p:hover {
+  cursor: pointer; }
 
 .gbar {
   height: 4.2em;
@@ -5841,15 +5844,12 @@ header {
   margin: 0;
   color: #5A7D7C;
   font-size: 1em;
-  border: 1px solid #dddbdb; }
+  border-bottom: 1px solid #dddbdb; }
 
-.coogle {
+.coolgle {
   margin-left: 1.1em;
   margin-right: 1.6em;
   display: inline-block; }
-
-.coogle:hover {
-  cursor: pointer; }
 
 .blue {
   color: #3369e8; }
@@ -6295,6 +6295,11 @@ input[readonly].form-control {
 /* Small Devices, Tablets */
 @media only screen and (max-width: 768px) {
   .coolgle {
-    margin-left: 5em; } }
+    padding: 0; }
+    .coolgle p {
+      text-align: center; }
+
+  .gbar {
+    padding: 0; } }
 /* Extra Small Devices, Phones */
 /* Custom, iPhone Retina */
