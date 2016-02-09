@@ -301,6 +301,14 @@ input[readonly].form-control {
   .main-nav {
     display: inline-block;
     margin-left: 8em;
+    a {
+      text-decoration: none;
+      color: $light-text;
+      margin-bottom: -0.1em;
+    }
+    a:hover {
+      color: $hover-grey;
+    }
   }
     
     ul {
@@ -317,7 +325,7 @@ input[readonly].form-control {
   padding-left: 0.6em;
   font-size: 0.95em;
   color: $light-text;
-  height: 58px;
+  height: 4.35em;
   }
 
     li:hover {
@@ -463,12 +471,14 @@ input[readonly].form-control {
     color: $hover-grey;
   }
 
-  .gshort {
-    display: none;
-  }
+  .sharing-buttons {
+    .gshort {
+      display: none;
+    }
 
-  .fbs {
-    display: none;
+    .fbs {
+      display: none;
+    }
   }
 
 /* Corrective text */
@@ -697,6 +707,14 @@ input[readonly].form-control {
       display: inline-block;
       margin-right: 0.5em;
     }
+    .gshort {
+      display: none;
+    }
+
+    .fbs {
+      display: none;
+    }
+
   }
 
   .facebook, .twitter, .google-plus {
@@ -728,22 +746,6 @@ input[readonly].form-control {
     }
   }
 
-  /* Define custom grid system for five item layout */
-.col-xs-15,
-.col-sm-15,
-.col-md-15,
-.col-lg-15 {
-    position: relative;
-    min-height: 1px;
-    padding-right: 10px;
-    padding-left: 10px;
-}
-
-.col-lg-15 {
-        width: 20%;
-        float: left;
-}
-
 /* make the search bar line up with the main nav on desktops */
 @media only screen and (min-width : 1200px) {
 
@@ -759,37 +761,42 @@ input[readonly].form-control {
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
 
-/* Custom grid def */
-  .col-lg-15 {
-        width: 20%;
-        float: left;
-  }
-
 }
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
 
-  /* Custom grid def */
-  .col-md-15 {
-        width: 20%;
-        float: left;
-  }
-
   .col-md-offset-1 {
     margin-left: 11.5% !important;
   }
 
+  /* move searchbar over */
+  .gbar .input-group {
+    margin-left: 1em;
+  }
+
+  /* pull result stats in line with searchbar */
+  .result-stats {
+    margin-left: 0.05em;
+  }
+
+}
+
+/* get rid account icons on screens thinner than 955px */
+@media only screen and (max-width: 955px) {
+  .account-icons {
+    ul {
+      display: none;
+    }
+  }
+
+  .gbar .input-group {
+    margin-left: 2em;
+  }
 }
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
-
-/* Custom grid def */
-  .col-sm-15 {
-        width: 20%;
-        float: left;
-  }
 
   /* Header no longer seperated by a full width border-shadow */
   body {
@@ -831,6 +838,15 @@ input[readonly].form-control {
     
     .input-group {
       width: 100%;
+      margin-left: 0;
+    }
+  }
+
+  /* tweak the main nav */
+  .main-nav {
+    button {
+      bottom: 0.1em;
+      margin-top: -0.5em;
     }
   }
 
@@ -845,6 +861,16 @@ input[readonly].form-control {
     margin-left: 0 !important;
   }
 
+.top-drop-item {
+      margin-top: 0.3em;
+    }
+
+.nav-area .dropdown .dropdown-menu {
+    li {
+    height: 1.5em;
+    }
+  }
+
     /*move the result stats over */
   .result-stats {
     margin-left: 6.5%;
@@ -855,18 +881,15 @@ input[readonly].form-control {
     margin-left:0;
   }
 
-
+  /* put a margin seperator below the info card */
+  .lower-card {
+    margin-bottom: 1.5em;
+  }
 
 }
 
 /* Extra Small Devices, Phones */ 
 @media only screen and (max-width : 480px) {
-
-  /* Custom grid def */
-  .col-xs-15 {
-        width: 20%;
-        float: left;
-  }
 
   .coolgle {
 
@@ -881,6 +904,10 @@ input[readonly].form-control {
   .gbar {
     padding: 0;
   } 
+
+  .gbar .input-group {
+    margin-left: 0;
+  }
 
   .nav-area {
     height: 3em;
@@ -900,23 +927,16 @@ input[readonly].form-control {
       width: 100%;
     }
     li {
-      height: 3em;
+      height: 3.1em;
       padding-top: 0.8em;
     }
-  }
-
-  .nav-area .dropdown {
-    button {
-      margin-top: -0.07em;
+    .dd {
+      display: none !important;
     }
-  }
-
-  .dropdown-menu {
-    display: none;
   }
 
   .nav-active {
-    border-bottom: 0.15em solid $hover-blue;
+    border-bottom: 0.2em solid $hover-blue;
     font-weight: 400;
     margin-top: 0;
   }
@@ -956,12 +976,6 @@ input[readonly].form-control {
 
 /* Custom, iPhone Retina */ 
 @media only screen and (max-width : 320px) {
-
-  /* Custom grid def */
-  .col-xs-15 {
-        width: 20%;
-        float: left;
-  }
     
 }
 

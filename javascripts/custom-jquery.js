@@ -8,4 +8,16 @@ $(document).ready(function(){
 
     $('.email-contact-sr').html('<a href="mailto:'+first + '@' + last+'">Travis Thielen | Email<\/a>');
 
+    $('.email-contact-nav').html('<a href="mailto:'+first + '@' + last+'">Contact<\/a>');
+
+    // Move blue highlight for active nav
+    $('.navItem').click(function() {
+    	$('.navItem').removeClass('nav-active');
+    	if ($(this).hasClass('dd')) {
+    		return;
+    	} else {
+    		$(this).addClass('nav-active');
+    	}
+    });
+
 });
