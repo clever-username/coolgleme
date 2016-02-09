@@ -6295,17 +6295,46 @@ input[readonly].form-control {
     line-height: 1.2em;
     vertical-align: center; }
 
+/* Define custom grid system for five item layout */
+.col-xs-15,
+.col-sm-15,
+.col-md-15,
+.col-lg-15 {
+  position: relative;
+  min-height: 1px;
+  padding-right: 10px;
+  padding-left: 10px; }
+
+.col-lg-15 {
+  width: 20%;
+  float: left; }
+
 /* make the search bar line up with the main nav on desktops */
 @media only screen and (min-width: 1200px) {
   .gbar .form-group {
     padding-left: 0 !important; } }
 /* Large Devices, Wide Screens */
+@media only screen and (max-width: 1200px) {
+  /* Custom grid def */
+  .col-lg-15 {
+    width: 20%;
+    float: left; } }
 /* Medium Devices, Desktops */
 @media only screen and (max-width: 992px) {
+  /* Custom grid def */
+  .col-md-15 {
+    width: 20%;
+    float: left; }
+
   .col-md-offset-1 {
     margin-left: 11.5% !important; } }
 /* Small Devices, Tablets */
 @media only screen and (max-width: 768px) {
+  /* Custom grid def */
+  .col-sm-15 {
+    width: 20%;
+    float: left; }
+
   /* Header no longer seperated by a full width border-shadow */
   body {
     background: #F1F1F1; }
@@ -6350,6 +6379,11 @@ input[readonly].form-control {
     margin-left: 0; } }
 /* Extra Small Devices, Phones */
 @media only screen and (max-width: 480px) {
+  /* Custom grid def */
+  .col-xs-15 {
+    width: 20%;
+    float: left; }
+
   .coolgle {
     padding: 0;
     margin: 0; }
@@ -6411,3 +6445,8 @@ input[readonly].form-control {
   .lower-card {
     margin-bottom: 1.5em; } }
 /* Custom, iPhone Retina */
+@media only screen and (max-width: 320px) {
+  /* Custom grid def */
+  .col-xs-15 {
+    width: 20%;
+    float: left; } }
