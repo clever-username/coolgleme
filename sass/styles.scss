@@ -289,24 +289,24 @@ input[readonly].form-control {
   text-align: center;
 }
 
+/* Main nav */
+
 .nav-area {
-  height: 59px;
+  height: 4.15em;
   border-bottom: 1px solid $grey;
 }
-
-/* Main nav */
 
 .nav-area {
 
   .main-nav {
     display: inline-block;
+    margin-left: 8em;
   }
     
     ul {
   list-style: none;
   padding: 0;
   margin-bottom: 0;
-  margin-left: 8em;
   }
 
     li {
@@ -418,11 +418,11 @@ input[readonly].form-control {
   padding-bottom: 0.19em;
   padding-right: 1.3em;
   padding-left: 1.3em;
-  margin-right: 1em;
+  margin-right: 0.5em;
   border: 1px solid $grey;
   @include border-radius(2px);
   float: right;
-  color: $light-text;
+  color: #4c4c4c;
   font-size: 1.4em;
   top: 0.7em;
 }
@@ -463,11 +463,19 @@ input[readonly].form-control {
     color: $hover-grey;
   }
 
+  .gshort {
+    display: none;
+  }
+
+  .fbs {
+    display: none;
+  }
+
 /* Corrective text */
 
   h4 {
     color: $reblue;
-    margin-top: 1.5em;
+    margin-top: 1em;
   }
 
   .blue-text {
@@ -720,6 +728,16 @@ input[readonly].form-control {
     }
   }
 
+/* make the search bar line up with the main nav on desktops */
+@media only screen and (min-width : 1200px) {
+
+  .gbar {
+    .form-group {
+      padding-left: 0 !important;
+    }
+  }
+
+}
 
 
 /* Large Devices, Wide Screens */
@@ -784,17 +802,22 @@ input[readonly].form-control {
   .main-nav {
     .button-group.open, .dropdown-toggle {
     background: $bg-grey !important;
+    }
   }
-}
 
-.nav-area .main-nav {
-  margin-left: 6.5%;
-}
+  .main-nav {
+    margin-left: 0 !important;
+  }
 
-  /*move the result stats over */
-.result-stats {
-  margin-left: 6.5%;
-}
+    /*move the result stats over */
+  .result-stats {
+    margin-left: 6.5%;
+  }
+
+  /* move the result stat text over to the edge */
+  .result-stats {
+    margin-left:0;
+  }
 
 
 
@@ -815,7 +838,77 @@ input[readonly].form-control {
 
   .gbar {
     padding: 0;
-  }  
+  } 
+
+  .nav-area {
+    height: 3em;
+    white-space: nowrap;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    -webkit-overflow-scrolling: touch;
+    -ms-overflow-style: -ms-autohiding-scrollbar;
+  } 
+
+  .main-nav {
+    ul {
+      margin-left: 0 !important;
+    }
+    ul:after {
+      content: '';
+      width: 100%;
+    }
+    li {
+      height: 3em;
+      padding-top: 0.8em;
+    }
+  }
+
+  .nav-area .dropdown {
+    button {
+      margin-top: -0.07em;
+    }
+  }
+
+  .dropdown-menu {
+    display: none;
+  }
+
+  .nav-active {
+    border-bottom: 0.15em solid $hover-blue;
+    font-weight: 400;
+    margin-top: 0;
+  }
+
+  /* move the result stat text over to the edge */
+  .result-stats {
+    margin-left:0;
+  }
+
+  /* shorten share button text */
+  .fbl {
+    display: none;
+  }
+
+  .fbs {
+    display: inline-block !important;
+  }
+
+  .glong {
+    display: none;
+  }
+
+  .gshort {
+    display: inline-block !important;
+  }
+
+  .sharing-buttons {
+    float: left !important;
+  }
+
+  /* put a margin seperator below the info card */
+  .lower-card {
+    margin-bottom: 1.5em;
+  }
 
 }
 
