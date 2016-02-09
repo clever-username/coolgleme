@@ -606,34 +606,30 @@ input[readonly].form-control {
     margin-right: 1em;
   }
 
+  ul {
+    display: inline-block;
+    list-style: none;
+    padding: 0;
+    padding-right: 0.2em;
+  }
+
+  li {
+    display: inline-block;
+    width: 18.5%;
+  }
+
 }
 
 .related-names {
   ul {
     list-style: none;
     padding-left: 0;
+    padding-right: 0.2em;
   }
 
   ul li {
     display: inline-block;
-    margin-right: 3.35em;
-  }
-
-  .c-j {
-    margin-right: 0;
-    margin-left: -0.4em;
-  }
-
-  .m-c {
-    margin-left: -0.8em;
-  }
-
-  .s-j {
-    margin-left: -0.1em;
-  }
-
-  .j-b {
-    margin-left: -1.3em;
+    width: 18.5%;
   }
 
   .people-link {

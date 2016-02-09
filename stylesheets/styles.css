@@ -6217,25 +6217,25 @@ input[readonly].form-control {
 .related-people img {
   display: inline-block;
   margin-right: 1em; }
+.related-people ul {
+  display: inline-block;
+  list-style: none;
+  padding: 0;
+  padding-right: 0.2em; }
+.related-people li {
+  display: inline-block;
+  width: 18.5%; }
 
 .related-names {
   line-height: 0.95em;
   margin-top: 0.3em; }
   .related-names ul {
     list-style: none;
-    padding-left: 0; }
+    padding-left: 0;
+    padding-right: 0.2em; }
   .related-names ul li {
     display: inline-block;
-    margin-right: 3.35em; }
-  .related-names .c-j {
-    margin-right: 0;
-    margin-left: -0.4em; }
-  .related-names .m-c {
-    margin-left: -0.8em; }
-  .related-names .s-j {
-    margin-left: -0.1em; }
-  .related-names .j-b {
-    margin-left: -1.3em; }
+    width: 18.5%; }
   .related-names .people-link:hover {
     text-decoration: none; }
   .related-names .who-is {
