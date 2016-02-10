@@ -5870,7 +5870,7 @@ header {
 
 .gbar .input-group {
   margin-top: 0.65em;
-  width: 640px; }
+  width: 40em; }
 
 textarea:focus,
 input[type="text"]:focus,
@@ -6322,13 +6322,20 @@ input[readonly].form-control {
   /* pull result stats in line with searchbar */
   .result-stats {
     margin-left: 0.05em; } }
-/* get rid account icons on screens thinner than 955px */
-@media only screen and (max-width: 955px) {
+/* get rid account icons on screens thinner than 991px */
+@media only screen and (max-width: 991px) {
   .account-icons ul {
-    display: none; }
+    display: none; } }
+@media only screen and (min-width: 915px) {
+  .coogle {
+    width: 6.33333333%;
+    padding-right: 0; } }
+@media only screen and (min-width: 769px) {
+  .coolgle {
+    width: 10%; }
 
-  .gbar .input-group {
-    margin-left: 2em; } }
+  .gbar .form-inline {
+    width: 60%; } }
 /* Small Devices, Tablets */
 @media only screen and (max-width: 768px) {
   /* Header no longer seperated by a full width border-shadow */
@@ -6401,7 +6408,8 @@ input[readonly].form-control {
     padding: 0; }
 
   .gbar .input-group {
-    margin-left: 0; }
+    margin-left: 0;
+    left: 0; }
 
   .nav-area {
     height: 3em;
