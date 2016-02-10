@@ -6322,10 +6322,11 @@ input[readonly].form-control {
   /* pull result stats in line with searchbar */
   .result-stats {
     margin-left: 0.05em; } }
-/* get rid account icons on screens thinner than 991px */
-@media only screen and (max-width: 991px) {
+/* get rid account icons on screens thinner than 889px */
+@media only screen and (max-width: 889px) {
   .account-icons ul {
     display: none; } }
+/* both of these queries are for handling breakpoints for bootstraps pain in the ass form classes */
 @media only screen and (min-width: 915px) {
   .coogle {
     width: 6.33333333%;
