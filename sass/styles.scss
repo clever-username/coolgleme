@@ -341,6 +341,10 @@ input[readonly].form-control {
   font-weight: 600;
 }
 
+.nav-active a {
+  color: $active-blue !important;
+}
+
 .nav-area .dropdown {
     
     button {
@@ -506,6 +510,12 @@ input[readonly].form-control {
     font-weight: 700;
   }
 
+}
+
+.dymEmail {
+  a  {
+    text-decoration: none;
+  }
 }
 
 /* Result links */
@@ -778,20 +788,23 @@ input[readonly].form-control {
 
 }
 
-/* get rid account icons on screens thinner than 889px */
+/* get rid account icons and settings button on screens thinner than 889px */
 @media only screen and (max-width: 889px) {
   .account-icons {
     ul {
       display: none;
     }
   }
+  .settings-btn {
+    display: none;
+  }
 }
 
 /* both of these queries are for handling breakpoints for bootstraps pain in the ass form classes */
 @media only screen and (min-width : 915px) {
-  .coogle {
-    width: 6.33333333%;
-    padding-right: 0;
+  .coolgle {
+    width: 8.33333333% !important;
+    padding-right: 0 !important;
   }
 }
 
@@ -929,6 +942,10 @@ input[readonly].form-control {
     -webkit-overflow-scrolling: touch;
     -ms-overflow-style: -ms-autohiding-scrollbar;
   } 
+
+  .nav-box {
+    border: 1px solid $dgrey;
+  }
 
   .main-nav {
     ul {

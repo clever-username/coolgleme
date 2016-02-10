@@ -6034,6 +6034,9 @@ input[readonly].form-control {
   border-bottom: 0.25em solid #3A76E2;
   font-weight: 600; }
 
+.nav-active a {
+  color: #4285f4 !important; }
+
 .nav-area .dropdown button {
   border: none;
   padding: 0;
@@ -6149,6 +6152,9 @@ input[readonly].form-control {
     color: #0028D5;
     font-style: italic;
     font-weight: 700; }
+
+.dymEmail a {
+  text-decoration: none; }
 
 /* Result links */
 .result-links h1 {
@@ -6322,15 +6328,18 @@ input[readonly].form-control {
   /* pull result stats in line with searchbar */
   .result-stats {
     margin-left: 0.05em; } }
-/* get rid account icons on screens thinner than 889px */
+/* get rid account icons and settings button on screens thinner than 889px */
 @media only screen and (max-width: 889px) {
   .account-icons ul {
+    display: none; }
+
+  .settings-btn {
     display: none; } }
 /* both of these queries are for handling breakpoints for bootstraps pain in the ass form classes */
 @media only screen and (min-width: 915px) {
-  .coogle {
-    width: 6.33333333%;
-    padding-right: 0; } }
+  .coolgle {
+    width: 8.33333333% !important;
+    padding-right: 0 !important; } }
 @media only screen and (min-width: 769px) {
   .coolgle {
     width: 10%; }
@@ -6419,6 +6428,9 @@ input[readonly].form-control {
     overflow-y: hidden;
     -webkit-overflow-scrolling: touch;
     -ms-overflow-style: -ms-autohiding-scrollbar; }
+
+  .nav-box {
+    border: 1px solid #B8B8B8; }
 
   .main-nav ul {
     margin-left: 0 !important; }

@@ -20,6 +20,8 @@
 
     <!-- Bootstrap -->
     <link rel="stylesheet" href="stylesheets/styles.css" type="text/css" />
+    <!-- Sweet alert -->
+    <link rel="stylesheet" href="stylesheets/styles.css" type="text/css" />
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -74,9 +76,9 @@
             <ul class="main-nav">
               <li class="navItem nav-active"><a href="#">All</a></li>
               <li class="navItem email-contact-nav"></li>
-              <li class="navItem"><a href="#">Videos</a></li>
+              <li class="navItem vids"><a href="#">Videos</a></li>
               <li class="navItem"><a href="#">Maps</a></li>
-              <li class="navItem"><a href="#">News</a></li>
+              <li class="navItem news"><a href="#">News</a></li>
               <li class="navItem dd">
                 <div class="dropdown btn-group">
                   <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -91,7 +93,7 @@
                   </ul>
                 </div>
               </li>
-              <li class="navItem"><a href="#">Search Tools</a></li>
+              <li class="navItem searchTool"><a href="#">Search Tools</a></li>
             </ul>
             <!-- settings cog button -->
             <span class="glyphicon glyphicon-cog settings-btn"></span>
@@ -122,7 +124,8 @@
                   </ul>
                 </div>
               </div>
-            <h4><span class="dymt">Did you mean:</span> <span class="blue-text">how do I hire <span class="travis">Travis Thielen</span></span></h4>
+              <div class="dymEmail">
+              </div>
         </div>
       </div>
     </div>
@@ -146,8 +149,8 @@
             </div>
             <div class="lower-card">
               <h1>Travis Thielen</h1>
-              <p class="tag-line">Web Developer/pretty cool guy</p>
-              <p class="blurb">Hard-working individual well acquainted with HTML, CSS, Sass, Wordpress, and customer-service. Also, likes to party.</p>
+              <p class="tag-line">Web Developer/pretty chill guy</p>
+              <p class="blurb">Hard-working individual well acquainted with HTML, CSS, Sass, Wordpress, JQuery, and customer-service. I also have a pretty impressive coin collection.</p>
               <ul class="basic-info">
                 <li><p><span class="info-head">Born:</span> <span class="info-a">November 21, 1988,</span> <span class="link-text">Sedona, AZ</span></p></li>
                 <li><p><span class="info-head">Height:</span> <span class="info-a">6'4"</span></p></li>
@@ -188,14 +191,14 @@
             <h4 class="job-title"><a href="http://bluewebdesigners.com/" target="_blank">Blue Web Media - Creative Director</a></h4>
             <p class="green-url"><a href="http://bluewebdesigners.com/" target="_blank">http://bluewebdesigners.com/</a></p>
             <p class="timespan">February 2013 - Present</p>
-            <p class="job-description">Handled all client accounts from sales leads to job completion. Created original copy for websites, social media, and advertisement campaigns. Responsible for generating contracts, invoices, and quarterly sales reports. Built and maintained highly customized Wordpress powered websites. Researched and implemented wide variety of solutions to meet specific needs of individual clients.</p>
+            <p class="job-description">Handled all client accounts from sales leads to job completion. Created original copy for websites, social media, and ad campaigns. Responsible for generating contracts, invoices, and mockups. Built and maintained highly customized Wordpress powered websites. Researched and implemented a wide variety of solutions to meet specific needs of individual clients.</p>
 
             <br>
 
             <h4 class="job-title"><a href="http://www.dukeswaikiki.com/" target="_blank">Duke's Canoe Club - Expeditor/Lunch Server</a></h4>
             <p class="green-url"><a href="http://www.dukeswaikiki.com/" target="_blank">www.dukeswaikiki.com</a></p>
             <p class="timespan">August 2006 - March 2015</p>
-            <p class="job-description">Led a small team responsible for food presentation, delivery, and complaint mitigation. Engaged in daily customer satisfaction and relations. Tasked with consistent completion of weekly goals and sales targets.</p>
+            <p class="job-description">Worked as part of a small team responsible for food presentation, delivery, and complaint mitigation. Engaged in daily customer service and relations. Tasked with consistent persuance of weekly goals and sales targets. I don't want to brag, but I was employee of the month one time...in 2007...a win's a win.</p>
 
             <br>
 
@@ -249,6 +252,7 @@
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="javascripts/bootstrap.min.js"></script>
     <script src="javascripts/custom-jquery.js"></script>
+    <script src="javascripts/min/sweetalert.min.js"></script>
   </body>
 </html>
 
