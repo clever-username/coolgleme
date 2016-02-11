@@ -6227,10 +6227,11 @@ input[readonly].form-control {
   display: inline-block;
   list-style: none;
   padding: 0;
-  padding-right: 0.2em; }
+  padding-right: 0.2em;
+  max-width: -moz-available; }
 .related-people li {
   display: inline-block;
-  width: 18.5%; }
+  max-width: 18.5%; }
 
 .related-names {
   line-height: 0.95em;
