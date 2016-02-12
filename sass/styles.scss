@@ -345,81 +345,6 @@ input[readonly].form-control {
   color: $active-blue !important;
 }
 
-.nav-area .dropdown {
-    
-    button {
-  border: none;
-  padding: 0;
-  font-size:0.95em;
-  background-color: #fff;
-  margin-top: -0.01em;
-  color: $light-text;
-  }
-
-    button:hover {
-  background: none;
-  color: $hover-grey;
-  }
-
-    .caret {
-  color: $light-text;
-  }
-
-    .open {
-  background: none;
-  }
-
-}
-
-.button-group.open, .dropdown-toggle {
-  box-shadow: none !important;
-  background: none !important;
-}
-
-.nav-area ul .dd {
-  top: -0.4em;
-  padding-bottom: 0.1em;
-}
-
-.nav-area .dropdown .dropdown-menu {
-  margin-left: -0.9em;
-  margin-top: 0.7em;
-  @include border-radius(2px);
-  min-width: 9em;
-  max-width: 12em;
-  padding-bottom: 0.7em;
-}
-
-.top-drop-item {
-      margin-top: 0.3em;
-    }
-
-.nav-area .dropdown .dropdown-menu {
-
-    li {
-  height: 0.95em;
-  padding: 0;
-  margin: 0;
-  width: 100%;
-  }
-
-    a {
-  margin-top: 0.3em;
-  padding-top: 0.4em;
-  padding-right: 3em;
-  padding-bottom: 0.4em;
-  padding-left: 1.5em;
-  width: 100%;
-  font-size: 0.95em;
-  color: $light-text;
-  }  
-
-  a:hover {
-    color: $hover-grey;
-  }
-
-}
-
 /* Settings button */
 
 .settings-btn {
@@ -458,31 +383,6 @@ input[readonly].form-control {
     font-size: 0.95em;
     color: $light-text;
     display: inline-block;
-  }
-
-/* Sharing buttons */
-
-  .sharing-buttons {
-    display: inline-block;
-    float: right;
-  }
-
-  .google-plus, .facebook, .twitter {
-    color: $light-text;
-  }
-
-  .facebook:hover, .twitter:hover, .google-plus:hover {
-    color: $hover-grey;
-  }
-
-  .sharing-buttons {
-    .gshort {
-      display: none;
-    }
-
-    .fbs {
-      display: none;
-    }
   }
 
 /* Corrective text */
@@ -705,35 +605,6 @@ input[readonly].form-control {
     color: $light-text;
   }
 
-  /* Sharing Buttons */
-
-  .sharing-buttons {
-    list-style: none;
-    padding: 0;
-
-    li {
-      display: inline-block;
-      margin-right: 0.5em;
-    }
-    .gshort {
-      display: none;
-    }
-
-    .fbs {
-      display: none;
-    }
-
-  }
-
-  .facebook, .twitter, .google-plus {
-    color: $reblue;
-  }
-
-  .facebook:hover, .twitter:hover, .google-plus:hover {
-    color: $reblue;
-    text-decoration: underline;
-  }
-
   .ad {
     background: $ads;
     padding: 0;
@@ -876,27 +747,6 @@ input[readonly].form-control {
     }
   }
 
-  /* get rid of white background from selected more button and move the main nav in line with the new search bar position*/
-  .main-nav {
-    .button-group.open, .dropdown-toggle {
-    background: $bg-grey !important;
-    }
-  }
-
-  .main-nav {
-    margin-left: 0 !important;
-  }
-
-.top-drop-item {
-      margin-top: 0.3em;
-    }
-
-.nav-area .dropdown .dropdown-menu {
-    li {
-    height: 1.5em;
-    }
-  }
-
     /*move the result stats over */
   .result-stats {
     margin-left: 6.5%;
@@ -961,9 +811,6 @@ input[readonly].form-control {
       height: 3.1em;
       padding-top: 0.8em;
     }
-    .dd {
-      display: none !important;
-    }
   }
 
   .nav-active {
@@ -975,27 +822,6 @@ input[readonly].form-control {
   /* move the result stat text over to the edge */
   .result-stats {
     margin-left:0;
-  }
-
-  /* shorten share button text */
-  .fbl {
-    display: none;
-  }
-
-  .fbs {
-    display: inline-block !important;
-  }
-
-  .glong {
-    display: none;
-  }
-
-  .gshort {
-    display: inline-block !important;
-  }
-
-  .sharing-buttons {
-    float: left !important;
   }
 
   /* put a margin seperator below the info card */

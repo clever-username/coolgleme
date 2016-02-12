@@ -22,16 +22,4 @@ $(document).ready(function(){
     	}
     });
 
-    $('.vids').click(function() {
-    	window.alert("Please confirm your age...just kidding, this isn't that kind of website.");
-    });
-
-    $('.news').click(function() {
-    	window.alert("This just in!: You stumbled upon an amazing potential employee. To hire now, click 'ok'");
-    });
-
-    $('.searchTool').click(function() {
-    	window.alert("I think you found what you're looking for...");
-    });
-
 });

@@ -6037,60 +6037,6 @@ input[readonly].form-control {
 .nav-active a {
   color: #4285f4 !important; }
 
-.nav-area .dropdown button {
-  border: none;
-  padding: 0;
-  font-size: 0.95em;
-  background-color: #fff;
-  margin-top: -0.01em;
-  color: #8E8E8E; }
-.nav-area .dropdown button:hover {
-  background: none;
-  color: #242424; }
-.nav-area .dropdown .caret {
-  color: #8E8E8E; }
-.nav-area .dropdown .open {
-  background: none; }
-
-.button-group.open, .dropdown-toggle {
-  box-shadow: none !important;
-  background: none !important; }
-
-.nav-area ul .dd {
-  top: -0.4em;
-  padding-bottom: 0.1em; }
-
-.nav-area .dropdown .dropdown-menu {
-  margin-left: -0.9em;
-  margin-top: 0.7em;
-  -webkit-border-radius: 2px;
-  -moz-border-radius: 2px;
-  -ms-border-radius: 2px;
-  border-radius: 2px;
-  min-width: 9em;
-  max-width: 12em;
-  padding-bottom: 0.7em; }
-
-.top-drop-item {
-  margin-top: 0.3em; }
-
-.nav-area .dropdown .dropdown-menu li {
-  height: 0.95em;
-  padding: 0;
-  margin: 0;
-  width: 100%; }
-.nav-area .dropdown .dropdown-menu a {
-  margin-top: 0.3em;
-  padding-top: 0.4em;
-  padding-right: 3em;
-  padding-bottom: 0.4em;
-  padding-left: 1.5em;
-  width: 100%;
-  font-size: 0.95em;
-  color: #8E8E8E; }
-.nav-area .dropdown .dropdown-menu a:hover {
-  color: #242424; }
-
 /* Settings button */
 .settings-btn {
   display: inline-block;
@@ -6122,23 +6068,11 @@ input[readonly].form-control {
   padding-top: 1em; }
 
 .result-stats {
-  /* Sharing buttons */
   /* Corrective text */ }
   .result-stats p {
     font-size: 0.95em;
     color: #8E8E8E;
     display: inline-block; }
-  .result-stats .sharing-buttons {
-    display: inline-block;
-    float: right; }
-  .result-stats .google-plus, .result-stats .facebook, .result-stats .twitter {
-    color: #8E8E8E; }
-  .result-stats .facebook:hover, .result-stats .twitter:hover, .result-stats .google-plus:hover {
-    color: #242424; }
-  .result-stats .sharing-buttons .gshort {
-    display: none; }
-  .result-stats .sharing-buttons .fbs {
-    display: none; }
   .result-stats h4 {
     color: #1A0DAB;
     margin-top: 1em; }
@@ -6277,25 +6211,6 @@ input[readonly].form-control {
 .timespan {
   color: #8E8E8E; }
 
-/* Sharing Buttons */
-.sharing-buttons {
-  list-style: none;
-  padding: 0; }
-  .sharing-buttons li {
-    display: inline-block;
-    margin-right: 0.5em; }
-  .sharing-buttons .gshort {
-    display: none; }
-  .sharing-buttons .fbs {
-    display: none; }
-
-.facebook, .twitter, .google-plus {
-  color: #1A0DAB; }
-
-.facebook:hover, .twitter:hover, .google-plus:hover {
-  color: #1A0DAB;
-  text-decoration: underline; }
-
 .ad {
   background: #EFC439;
   padding: 0;
@@ -6384,19 +6299,6 @@ input[readonly].form-control {
     bottom: 0.1em;
     margin-top: -0.5em; }
 
-  /* get rid of white background from selected more button and move the main nav in line with the new search bar position*/
-  .main-nav .button-group.open, .main-nav .dropdown-toggle {
-    background: #F1F1F1 !important; }
-
-  .main-nav {
-    margin-left: 0 !important; }
-
-  .top-drop-item {
-    margin-top: 0.3em; }
-
-  .nav-area .dropdown .dropdown-menu li {
-    height: 1.5em; }
-
   /*move the result stats over */
   .result-stats {
     margin-left: 6.5%; }
@@ -6442,8 +6344,6 @@ input[readonly].form-control {
   .main-nav li {
     height: 3.1em;
     padding-top: 0.8em; }
-  .main-nav .dd {
-    display: none !important; }
 
   .nav-active {
     border-bottom: 0.2em solid #3A76E2;
@@ -6453,22 +6353,6 @@ input[readonly].form-control {
   /* move the result stat text over to the edge */
   .result-stats {
     margin-left: 0; }
-
-  /* shorten share button text */
-  .fbl {
-    display: none; }
-
-  .fbs {
-    display: inline-block !important; }
-
-  .glong {
-    display: none; }
-
-  .gshort {
-    display: inline-block !important; }
-
-  .sharing-buttons {
-    float: left !important; }
 
   /* put a margin seperator below the info card */
   .lower-card {
