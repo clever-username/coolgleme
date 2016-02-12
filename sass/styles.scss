@@ -460,31 +460,6 @@ input[readonly].form-control {
     display: inline-block;
   }
 
-/* Sharing buttons */
-
-  .sharing-buttons {
-    display: inline-block;
-    float: right;
-  }
-
-  .google-plus, .facebook, .twitter {
-    color: $light-text;
-  }
-
-  .facebook:hover, .twitter:hover, .google-plus:hover {
-    color: $hover-grey;
-  }
-
-  .sharing-buttons {
-    .gshort {
-      display: none;
-    }
-
-    .fbs {
-      display: none;
-    }
-  }
-
 /* Corrective text */
 
   h4 {
@@ -702,35 +677,6 @@ input[readonly].form-control {
 
   .timespan {
     color: $light-text;
-  }
-
-  /* Sharing Buttons */
-
-  .sharing-buttons {
-    list-style: none;
-    padding: 0;
-
-    li {
-      display: inline-block;
-      margin-right: 0.5em;
-    }
-    .gshort {
-      display: none;
-    }
-
-    .fbs {
-      display: none;
-    }
-
-  }
-
-  .facebook, .twitter, .google-plus {
-    color: $reblue;
-  }
-
-  .facebook:hover, .twitter:hover, .google-plus:hover {
-    color: $reblue;
-    text-decoration: underline;
   }
 
   .ad {
@@ -974,27 +920,6 @@ input[readonly].form-control {
   /* move the result stat text over to the edge */
   .result-stats {
     margin-left:0;
-  }
-
-  /* shorten share button text */
-  .fbl {
-    display: none;
-  }
-
-  .fbs {
-    display: inline-block !important;
-  }
-
-  .glong {
-    display: none;
-  }
-
-  .gshort {
-    display: inline-block !important;
-  }
-
-  .sharing-buttons {
-    float: left !important;
   }
 
   /* put a margin seperator below the info card */
