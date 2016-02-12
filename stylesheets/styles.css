@@ -6228,7 +6228,8 @@ input[readonly].form-control {
   list-style: none;
   padding: 0;
   padding-right: 0.2em;
-  max-width: -moz-available; }
+  max-width: -moz-available;
+  width: fit-content; }
 .related-people li {
   display: inline-block;
   max-width: 18.5%; }

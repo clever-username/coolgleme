@@ -622,6 +622,7 @@ input[readonly].form-control {
     padding: 0;
     padding-right: 0.2em;
     max-width: -moz-available;
+    width: fit-content;
   }
 
   li {
