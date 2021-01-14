@@ -265,6 +265,17 @@ th {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
 
+  .sizer {
+    width: 400px;
+
+  }
+
+  .vidpad {
+    padding-top: 5px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+  }
+
 .glyphicon-asterisk:before {
   content: "\2a"; }
 

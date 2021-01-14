@@ -1,7 +1,7 @@
 $(document).ready(function(){
 	
 	var first = "travis";
-    var last = "stuxweb.com";
+    var last = "travisthielen.com";
     $('.email-contact-link').html('<a class="link-text" href="mailto:'+first + '@' + last+'">'+first + '@' + last+'<\/a>');
 
     $('.email-contact-reg').html('<a href="mailto:'+first + '@' + last+'">'+first + '@' + last+'<\/a>');
