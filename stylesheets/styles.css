@@ -10,6 +10,11 @@ html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%; }
 
+html, body {
+    width: auto!important;
+  overflow-x: hidden!important; 
+}
+
 body {
   margin: 0; }
 
@@ -272,7 +277,7 @@ th {
   .vidpad {
     border-radius: 15px 22px 22px 15px;
     overflow: hidden;
-    padding: 5px 8px 0 0;
+    padding: 5px 8px 5px 0;
   }
 
   .rounded {
