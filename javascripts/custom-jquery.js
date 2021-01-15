@@ -10,7 +10,7 @@ $(document).ready(function(){
 
     $('.email-contact-nav').html('<a href="mailto:'+first + '@' + last+'">Contact<\/a>');
 
-    $('.dymEmail').html('<a href="mailto:'+first + '@' + last+'"><h4><span class="dymt">Did you mean:</span> <span class="blue-text">how do I hire <span class="travis">Travis Thielen</span></span></h4><\/a>');
+    $('.dymEmail').html('<a href="mailto:'+first + '@' + last+'"><h4><span class="dymt">Did you mean:</span> <span class="blue-text">how do I hire or book <span class="travis">Travis Thielen</span></span></h4><\/a>');
 
     // Move blue highlight for active nav
     $('.navItem').click(function() {

@@ -267,14 +267,17 @@ th {
 
   .sizer {
     width: 400px;
-
   }
 
   .vidpad {
-    padding-top: 5px;
-    padding-right: 10px;
-    padding-bottom: 5px;
+    border-radius: 15px 22px 22px 15px;
+    overflow: hidden;
+    padding: 5px 8px 0 0;
   }
+
+  .rounded {
+    border-radius:.25rem!important;
+}
 
   a.btn-social,
 .btn-social

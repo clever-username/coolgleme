@@ -196,6 +196,17 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/javascripts\/lightbox.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/javascripts\/lightbox.js",
+		"outputAbbreviatedPath": "\/javascripts\/min\/lightbox-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
 	"\/javascripts\/min\/custom-jquery-min.js": {
 		"fileType": 64,
 		"ignore": 1,
@@ -269,6 +280,17 @@
 		"initialSize": 3384,
 		"inputAbbreviatedPath": "\/media\/android-chrome-96x96.png",
 		"outputAbbreviatedPath": "\/media\/android-chrome-96x96.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/media\/Animated-version-of-Travis-Thielen-doing-stand-up.PNG": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4.12266e+06,
+		"inputAbbreviatedPath": "\/media\/Animated-version-of-Travis-Thielen-doing-stand-up.PNG",
+		"outputAbbreviatedPath": "\/media\/Animated-version-of-Travis-Thielen-doing-stand-up.PNG",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -603,6 +625,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/media\/old-school-coit-poster-11x17-update-min.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.38485e+06,
+		"inputAbbreviatedPath": "\/media\/old-school-coit-poster-11x17-update-min.jpg",
+		"outputAbbreviatedPath": "\/media\/old-school-coit-poster-11x17-update-min.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/media\/steve-jobs.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -610,6 +643,17 @@
 		"initialSize": 36996,
 		"inputAbbreviatedPath": "\/media\/steve-jobs.jpg",
 		"outputAbbreviatedPath": "\/media\/steve-jobs.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/media\/travis-headshot.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.31657e+06,
+		"inputAbbreviatedPath": "\/media\/travis-headshot.jpg",
+		"outputAbbreviatedPath": "\/media\/travis-headshot.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -724,6 +768,39 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/media\/Travis-Thielen-performing-at-the-Sacramento-Punch-Line.JPG": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 231974,
+		"inputAbbreviatedPath": "\/media\/Travis-Thielen-performing-at-the-Sacramento-Punch-Line.JPG",
+		"outputAbbreviatedPath": "\/media\/Travis-Thielen-performing-at-the-Sacramento-Punch-Line.JPG",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/media\/Travis-Thielen-performing-on-Submission-Comedy-at-the-Armory-in-San-Francisco.JPG": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.26305e+06,
+		"inputAbbreviatedPath": "\/media\/Travis-Thielen-performing-on-Submission-Comedy-at-the-Armory-in-San-Francisco.JPG",
+		"outputAbbreviatedPath": "\/media\/Travis-Thielen-performing-on-Submission-Comedy-at-the-Armory-in-San-Francisco.JPG",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/media\/Travis-Thielen-performing-stand-up-comedy-at-Neck-of-the-Woods-in-San-Francisco-large.JPG": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 353687,
+		"inputAbbreviatedPath": "\/media\/Travis-Thielen-performing-stand-up-comedy-at-Neck-of-the-Woods-in-San-Francisco-large.JPG",
+		"outputAbbreviatedPath": "\/media\/Travis-Thielen-performing-stand-up-comedy-at-Neck-of-the-Woods-in-San-Francisco-large.JPG",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/media\/Travis-Thielen-performing-stand-up-comedy-at-Neck-of-the-Woods-in-San-Francisco.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -753,6 +830,17 @@
 		"initialSize": 248099,
 		"inputAbbreviatedPath": "\/media\/Travis-Thielen-performing-stand-up-comedy-at-submission-in-the-Armory-San-Francisco.jpg",
 		"outputAbbreviatedPath": "\/media\/Travis-Thielen-performing-stand-up-comedy-at-submission-in-the-Armory-San-Francisco.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/media\/Travis-Thielen-performing-stand-up-comedy-at-the-Setup-in-San-Francisco-large.JPG": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.03505e+06,
+		"inputAbbreviatedPath": "\/media\/Travis-Thielen-performing-stand-up-comedy-at-the-Setup-in-San-Francisco-large.JPG",
+		"outputAbbreviatedPath": "\/media\/Travis-Thielen-performing-stand-up-comedy-at-the-Setup-in-San-Francisco-large.JPG",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -819,6 +907,17 @@
 		"initialSize": 276509,
 		"inputAbbreviatedPath": "\/media\/Travis-Thielen-with-comedian-friends-at-SF-Sketchfest-party.jpg",
 		"outputAbbreviatedPath": "\/media\/Travis-Thielen-with-comedian-friends-at-SF-Sketchfest-party.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/media\/Travis-Thielen-with-friends-at-a-San-Francisco-Sketchfest-party.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 582367,
+		"inputAbbreviatedPath": "\/media\/Travis-Thielen-with-friends-at-a-San-Francisco-Sketchfest-party.jpg",
+		"outputAbbreviatedPath": "\/media\/Travis-Thielen-with-friends-at-a-San-Francisco-Sketchfest-party.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -919,6 +1018,15 @@
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/stylesheets\/ie.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/stylesheets\/lightbox.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/stylesheets\/lightbox.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
