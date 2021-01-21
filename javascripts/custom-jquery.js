@@ -12,6 +12,16 @@ $(document).ready(function(){
 
     $('.dymEmail').html('<a href="mailto:'+first + '@' + last+'"><h4><span class="dymt">Did you mean:</span> <span class="blue-text">how do I book or hire <span class="travis">Travis Thielen</span></span></h4><\/a>');
 
+    // Modify Fancybox3 options for gallery
+    $('[data-fancybox="about-me"]').fancybox({
+        animationEffect: "zoom",
+        transitionEffect: "slide",
+        toolbar: "false",
+        buttons: [
+            "close"
+        ],
+    });
+
     // Move blue highlight for active nav
     $('.navItem').click(function() {
     	$('.navItem').removeClass('nav-active');
@@ -23,3 +33,5 @@ $(document).ready(function(){
     });
 
 });
+
+   

@@ -196,17 +196,6 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/javascripts\/lightbox.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/javascripts\/lightbox.js",
-		"outputAbbreviatedPath": "\/javascripts\/min\/lightbox-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
 	"\/javascripts\/min\/custom-jquery-min.js": {
 		"fileType": 64,
 		"ignore": 1,
@@ -416,6 +405,72 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/media\/Becky-Lynn-performing-at-coit-comedy.JPG": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.92856e+06,
+		"inputAbbreviatedPath": "\/media\/Becky-Lynn-performing-at-coit-comedy.JPG",
+		"outputAbbreviatedPath": "\/media\/Becky-Lynn-performing-at-coit-comedy.JPG",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/media\/Chad-Opitz-making-the-whole-crowd-laugh.JPG": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.80046e+06,
+		"inputAbbreviatedPath": "\/media\/Chad-Opitz-making-the-whole-crowd-laugh.JPG",
+		"outputAbbreviatedPath": "\/media\/Chad-Opitz-making-the-whole-crowd-laugh.JPG",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/media\/Chubby-Noodle-logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 46629,
+		"inputAbbreviatedPath": "\/media\/Chubby-Noodle-logo.png",
+		"outputAbbreviatedPath": "\/media\/Chubby-Noodle-logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/media\/Chubby-Noodle-sake- menu-descriptions.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.10957e+06,
+		"inputAbbreviatedPath": "\/media\/Chubby-Noodle-sake- menu-descriptions.jpg",
+		"outputAbbreviatedPath": "\/media\/Chubby-Noodle-sake- menu-descriptions.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/media\/Chubby-Noodle-sake-menu-descriptions-annotated.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2.88168e+06,
+		"inputAbbreviatedPath": "\/media\/Chubby-Noodle-sake-menu-descriptions-annotated.jpg",
+		"outputAbbreviatedPath": "\/media\/Chubby-Noodle-sake-menu-descriptions-annotated.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/media\/coit-comedy-logo.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 137454,
+		"inputAbbreviatedPath": "\/media\/coit-comedy-logo.jpg",
+		"outputAbbreviatedPath": "\/media\/coit-comedy-logo.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/media\/Coit-Comedy-show-logo-illustration.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -423,6 +478,61 @@
 		"initialSize": 291128,
 		"inputAbbreviatedPath": "\/media\/Coit-Comedy-show-logo-illustration.jpg",
 		"outputAbbreviatedPath": "\/media\/Coit-Comedy-show-logo-illustration.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/media\/columbus-cafe-sign.jpeg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 12533,
+		"inputAbbreviatedPath": "\/media\/columbus-cafe-sign.jpeg",
+		"outputAbbreviatedPath": "\/media\/columbus-cafe-sign.jpeg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/media\/Comedian-Alex-Love-performing-at-coit-comedy.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.54574e+06,
+		"inputAbbreviatedPath": "\/media\/Comedian-Alex-Love-performing-at-coit-comedy.jpg",
+		"outputAbbreviatedPath": "\/media\/Comedian-Alex-Love-performing-at-coit-comedy.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/media\/Comedian-Jesse-Hett-performing-at-coit-comedy.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2.44713e+06,
+		"inputAbbreviatedPath": "\/media\/Comedian-Jesse-Hett-performing-at-coit-comedy.jpg",
+		"outputAbbreviatedPath": "\/media\/Comedian-Jesse-Hett-performing-at-coit-comedy.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/media\/Comedian-Ryan-Sudhakaran-performing-at-coit-comedy-cropped.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 900166,
+		"inputAbbreviatedPath": "\/media\/Comedian-Ryan-Sudhakaran-performing-at-coit-comedy-cropped.jpg",
+		"outputAbbreviatedPath": "\/media\/Comedian-Ryan-Sudhakaran-performing-at-coit-comedy-cropped.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/media\/Comedian-Samantha-gilweit-performing-at-coit-comedy.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2.37832e+06,
+		"inputAbbreviatedPath": "\/media\/Comedian-Samantha-gilweit-performing-at-coit-comedy.jpg",
+		"outputAbbreviatedPath": "\/media\/Comedian-Samantha-gilweit-performing-at-coit-comedy.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -500,6 +610,28 @@
 		"initialSize": 2747,
 		"inputAbbreviatedPath": "\/media\/favicon-96x96.png",
 		"outputAbbreviatedPath": "\/media\/favicon-96x96.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/media\/Feel-Woods-Headlining-Coit-Comedy-edited.JPG": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.12138e+06,
+		"inputAbbreviatedPath": "\/media\/Feel-Woods-Headlining-Coit-Comedy-edited.JPG",
+		"outputAbbreviatedPath": "\/media\/Feel-Woods-Headlining-Coit-Comedy-edited.JPG",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/media\/golden-boy-pizza-storefront.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 109145,
+		"inputAbbreviatedPath": "\/media\/golden-boy-pizza-storefront.jpg",
+		"outputAbbreviatedPath": "\/media\/golden-boy-pizza-storefront.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -1018,15 +1150,6 @@
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/stylesheets\/ie.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/stylesheets\/lightbox.css": {
-		"fileType": 16,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/stylesheets\/lightbox.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
