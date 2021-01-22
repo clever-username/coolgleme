@@ -405,6 +405,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/media\/Arnold-Schwarzenegger-headshot.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 94629,
+		"inputAbbreviatedPath": "\/media\/Arnold-Schwarzenegger-headshot.jpg",
+		"outputAbbreviatedPath": "\/media\/Arnold-Schwarzenegger-headshot.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/media\/arnold-spotting-travis.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 119896,
+		"inputAbbreviatedPath": "\/media\/arnold-spotting-travis.jpg",
+		"outputAbbreviatedPath": "\/media\/arnold-spotting-travis.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/media\/Becky-Lynn-performing-at-coit-comedy.JPG": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -453,7 +475,7 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 2.88168e+06,
+		"initialSize": 2.88412e+06,
 		"inputAbbreviatedPath": "\/media\/Chubby-Noodle-sake-menu-descriptions-annotated.jpg",
 		"outputAbbreviatedPath": "\/media\/Chubby-Noodle-sake-menu-descriptions-annotated.jpg",
 		"outputPathIsOutsideProject": 0,
@@ -636,6 +658,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/media\/Guy-Fieri.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 113237,
+		"inputAbbreviatedPath": "\/media\/Guy-Fieri.jpg",
+		"outputAbbreviatedPath": "\/media\/Guy-Fieri.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/media\/Hulk-Hogan.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 91900,
+		"inputAbbreviatedPath": "\/media\/Hulk-Hogan.jpg",
+		"outputAbbreviatedPath": "\/media\/Hulk-Hogan.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/media\/IMG_9732.PNG": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -753,6 +797,17 @@
 		"initialSize": 29343,
 		"inputAbbreviatedPath": "\/media\/myspace-tom.JPG",
 		"outputAbbreviatedPath": "\/media\/myspace-tom.JPG",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/media\/Nicolas-Cage.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 57973,
+		"inputAbbreviatedPath": "\/media\/Nicolas-Cage.jpg",
+		"outputAbbreviatedPath": "\/media\/Nicolas-Cage.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

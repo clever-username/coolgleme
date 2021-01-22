@@ -22,6 +22,13 @@ $(document).ready(function(){
         ],
     });
 
+    $('[data-fancybox="maps"]').fancybox({
+        toolbar: "false",
+        buttons: [
+            "close"
+        ]
+    });
+
     // Move blue highlight for active nav
     $('.navItem').click(function() {
     	$('.navItem').removeClass('nav-active');

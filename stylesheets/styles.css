@@ -271,7 +271,7 @@ th {
   -moz-osx-font-smoothing: grayscale; }
 
   .sizer {
-    width: 400px;
+    max-width: 400px;
   }
 
   .vidpad {
@@ -285,8 +285,55 @@ th {
 }
 
   .img-job {
-    margin: 5px 0 0 0;
+    padding: 5px 10px 5px 0!important;
   }
+
+  /*
+
+   Styles for animated modal
+   =========================
+
+*/
+
+/* Start state */
+.animated-modal {
+  max-width: 550px;
+  border-radius: 4px;
+  overflow: hidden;
+  
+  transform: translateY(-50px);
+  transition: all .7s;
+}
+
+.animated-modal h2,
+.animated-modal p {
+  transform: translateY(-50px);
+  opacity: 0;
+  
+  transition-property: transform, opacity;
+  transition-duration: .4s;
+}
+
+/* Final state */
+.fancybox-slide--current .animated-modal,
+.fancybox-slide--current .animated-modal h2,
+.fancybox-slide--current .animated-modal p {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+/* Reveal content with different delays */
+.fancybox-slide--current .animated-modal h2 {
+  transition-delay: .1s;
+}
+
+.fancybox-slide--current .animated-modal p {
+  transition-delay: .3s;
+}
+
+.input-group-addon a {
+  text-decoration: none!important;
+}
 
   a.btn-social,
 .btn-social
@@ -6511,7 +6558,8 @@ input[readonly].form-control {
 
 .link-text, .related-names .people-link {
   color: #1A0DAB;
-  margin-bottom: 0; }
+  margin-bottom: 0; 
+}
 
 .link-text:hover, .related-names .people-link:hover {
   text-decoration: underline;
@@ -6571,7 +6619,15 @@ input[readonly].form-control {
     padding-right: 0.2em; }
   .related-names ul li {
     display: inline-block;
-    width: 18.5%; }
+    width: 18.5%;
+    vertical-align: top;
+    text-align: left;
+}
+
+.related-names a {
+  text-decoration: none;
+}
+
   .related-names .people-link:hover {
     text-decoration: none; }
   .related-names .who-is {
